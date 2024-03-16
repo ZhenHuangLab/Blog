@@ -1,0 +1,32 @@
+/* Add custom CSS */
+
+:root {
+    --color-primary: #1B4489;
+}
+[data-theme="dark"] {
+    --color-primary: #0082C8;
+}
+
+.overlay-img {
+    transition: transform 0.25s;
+}
+
+.overlay {
+    transition: opacity 0.25s;
+}
+
+.small {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+/* 添加图片说明，只要<span class="caption">输入你想加的文字</span>即可 */
+
+.caption {
+    font-style: italic;
+    font-size: 0.8em;
+    color: #666;
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhen&#39;s BLOG</title>
+    <link>http://localhost:60814/classnotes/</link>
+    <description>Recent content on Zhen&#39;s BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:60814/classnotes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Syntax Guide 2</title>
+      <link>http://localhost:60814/subsection2/markdown-syntax-2/</link>
+      <pubDate>Thu, 19 Nov 2020 21:21:46 -0500</pubDate>
+      
+      <guid>http://localhost:60814/subsection2/markdown-syntax-2/</guid>
+      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text and Feature Image</title>
+      <link>http://localhost:60814/subsection/placeholder-text/</link>
+      <pubDate>Wed, 18 Nov 2020 21:21:46 -0500</pubDate>
+      
+      <guid>http://localhost:60814/subsection/placeholder-text/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>&#34;See Also&#34; and &#34;Read Next&#34; Demo</title>
+      <link>http://localhost:60814/subsection/see-also-read-next/</link>
+      <pubDate>Tue, 17 Nov 2020 21:21:46 -0500</pubDate>
+      
+      <guid>http://localhost:60814/subsection/see-also-read-next/</guid>
+      <description>Sample article showcasing the &#34;See Also&#34; and &#34;Read Next&#34; features.</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>http://localhost:60814/posts/emoji-support/</link>
+      <pubDate>Tue, 17 Nov 2020 21:21:46 -0500</pubDate>
+      
+      <guid>http://localhost:60814/posts/emoji-support/</guid>
+      <description>Guide to emoji usage in Hugo.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>http://localhost:60814/subsection2/markdown-syntax/</link>
+      <pubDate>Tue, 17 Nov 2020 21:21:46 -0500</pubDate>
+      
+      <guid>http://localhost:60814/subsection2/markdown-syntax/</guid>
+      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+    </item>
+    
+    <item>
+      <title>Really Long TOC That Scrolls</title>
+      <link>http://localhost:60814/subsection/really-long-toc/</link>
+      <pubDate>Tue, 17 Nov 2020 21:21:46 -0500</pubDate>
+      
+      <guid>http://localhost:60814/subsection/really-long-toc/</guid>
+      <description>This post has a really long TOC that scrolls.</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>http://localhost:60814/subsection/math-typesetting/</link>
+      <pubDate>Mon, 16 Nov 2020 21:21:46 -0500</pubDate>
+      
+      <guid>http://localhost:60814/subsection/math-typesetting/</guid>
+      <description>A brief guide to setting up KaTeX.</description>
+    </item>
+    
+  </channel>
+</rss>

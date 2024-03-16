@@ -1,0 +1,18 @@
+<footer>
+  {{/*  {{ if (or (.Param "newsletter") (and (.Site.Params.global_newsletter) (not (isset .Params "newsletter")))) }}
+    {{ partial "footer/newsletter.html" . }}
+  {{ end }}  */}}
+  <div class="section footer">
+    <p class="footer-copyright">&copy; 2022 - {{ now.Format "2006" }} &middot; 
+      <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a><br>
+      {{ with .Site.Params.footer_text | markdownify }}
+        <span> {{ . }}</span>
+      {{ end }}
+    </p>
+    {{ if eq .Site.Params.footer_socials true }}
+      <div class="footer-socials">
+        {{ partial "general/social-links.html" . }}
+      </div>
+    {{ end }}
+  </div>
+</footer>
