@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/zhenhuang/Downloads/Blog",
+	"sourceRoot": "/Users/zhenhuang/Documents/Blog",
 	"sources": [
 		"themes/hugo-liftoff/assets/scss/main.scss",
 		"themes/hugo-liftoff/assets/scss/abstracts/_variables.scss",
