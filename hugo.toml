@@ -1,0 +1,4 @@
+baseURL = 'https://blog.zhenhuang.site'
+languageCode = 'en-us'
+title = 'Zhen BLOG'
+theme = 'hugo-liftoff'

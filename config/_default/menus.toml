@@ -1,0 +1,133 @@
+[[main]]
+    # Top-level menu entry
+    identifier = "biosci"
+    name = "Biosci"
+    url = "/biosci/"
+    weight = 1
+
+[[main]]
+    identifier = "classnotes"
+    name = "ClassNotes"
+    url = "/classnotes/"
+    parent = "biosci"
+    weight = 2
+
+[[main]]
+    identifier = "research"
+    name = "Research"
+    url = "/research/"
+    parent = "biosci"
+    weight = 2
+
+[[main]]
+    # Top-level menu entry
+    identifier = "astro"
+    name = "Astro"
+    url = "/astro/"
+    weight = 3
+
+[[main]]
+    identifier = "astronotes"
+    name = "AstroNotes"
+    url = "/astronotes/"
+    parent = "astro"
+    weight = 3
+
+[[main]]
+    identifier = "astrogallery"
+    name = "AstroGallery"
+    url = "/astrogallery/"
+    # url = "/posts/subsection/" # Remove url param from subsection/_index.md frontmatter to use full permalink
+    parent = "astro"
+    weight = 4
+
+[[main]]
+    identifier = "kirastar"
+    name = "Kirastar(preview)"
+    url = "https://kirastar.zhenhuang.site/"
+    parent = "astro"
+    weight = 5
+
+[[main]]
+    # Top-level menu entry
+    identifier = "explore"
+    name = "Explore"
+    url = "/explore/"
+    weight = 6
+
+[[main]]
+    identifier = "posts"
+    name = "All Posts"
+    url = "/posts/"
+    parent = "explore"
+    weight = 6
+
+[[main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    parent = "explore"
+    weight = 7
+
+[[main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    parent = "explore"
+    weight = 8
+
+[[main]]
+    identifier = "series"
+    name = "Series"
+    url = "/series/"
+    parent = "explore"
+    weight = 9
+
+[[main]]
+    identifier = "project-type"
+    name = "Project Types"
+    url = "/project-types/"
+    parent = "explore"
+    weight = 10
+
+[[main]]
+    # Top-level menu entry
+    identifier = "resources"
+    name = "Resources"
+    url = "/resources/"
+    weight = 11
+
+[[main]]
+    identifier = "scriptsoftware"
+    name = "Scripts & Software"
+    url = "/scriptsoftware/"
+    parent = "resources"
+    weight = 11
+
+[[main]]
+    identifier = "documentation"
+    name = "Documentation"
+    url = "/documentation/"
+    parent = "resources"
+    weight = 12
+
+[[main]]
+    identifier = "documentation"
+    name = "Documentation"
+    url = "/documentation/"
+    parent = "resources"
+    weight = 13
+
+[[main]]
+    identifier = "webslides"
+    name = "Webslides"
+    url = "https://webslides.zhenhuang.site/"
+    parent = "resources"
+    weight = 14
+
+[[main]]
+    # Top-level menu entry
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 15
