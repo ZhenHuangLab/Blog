@@ -8,9 +8,9 @@ author: John Doe
 
 draft: false
 date: 2020-11-19T21:21:46-05:00
-lastmod: 
+lastmod: 2020-11-19
 expiryDate: 
-publishDate: 
+publishDate: 2020-11-19
 
 feature_image: 
 feature_image_alt: 

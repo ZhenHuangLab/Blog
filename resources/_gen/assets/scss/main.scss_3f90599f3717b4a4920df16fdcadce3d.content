@@ -773,6 +773,12 @@ body {
   line-height: calc(8px + 2ex);
   color: var(--color-contrast-medium-high); }
 
+.busuanzi-footer {
+  text-align: center;
+  font-size: var(--font-size-base);
+  line-height: calc(8px + 2ex);
+  color: var(--color-contrast-medium-high); }
+
 :root {
   /* style */
   --switch-width: 48px;

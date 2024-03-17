@@ -1,9 +1,17 @@
 {{ define "main" }}
   <article class="error-404 container">
     <div>
-      <h1>Page Not Found!</h1>
-      <p>The page you requested could not be found.</p>
-      <a class="btn-secondary" href="{{ "/" | relURL }}">&lsaquo; Return Home</a>
+      <center>
+        {{ $404_image := "images/shiranai.jpg" }}
+        {{ $404_image := resources.Get $404_image }}
+        <h1>Page Not Found!</h1>
+        <p><b>Oops!</b> This is awkward... You are looking for something that doesn't actually exist.</p>
+        <img src="{{ $404_image.RelPermalink }}" alt='知らない' width='500'/>
+        <br>
+        <br>
+        <a class="btn-secondary" href="{{ "/" | relURL }}">&lsaquo; Return Home</a>
+        <br>
+      </center>
     </div>
   </article>
 {{ end }}

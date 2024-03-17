@@ -27,6 +27,7 @@ related: true
 social_share: true
 newsletter: true
 disable_comments: false
+math: true
 ---
 
 Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
@@ -56,6 +57,8 @@ In this example we will be using [KaTeX](https://katex.org/).
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
 {{ end }}
 {{</ math.inline >}} -->
+
+$$ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } $$
 
 ## Examples
 

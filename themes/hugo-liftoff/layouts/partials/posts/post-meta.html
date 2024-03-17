@@ -11,5 +11,12 @@
     &nbsp;&middot;&nbsp;
     Updated: {{ .Lastmod.Format "Jan 2, 2006" -}}
   {{- end -}}
-  &nbsp;&middot;&nbsp;
-  {{- .ReadingTime }} min.</div>
+    &nbsp;&middot;&nbsp;
+  {{- .ReadingTime }} min
+  <!-- busuanzi -->
+  {{ if .Site.Params.busuanzi -}}
+    <span id="busuanzi_container_page_pv" style='display:none'>
+      &nbsp;&middot;&nbsp;
+      Views: <span id="busuanzi_value_page_pv"></span></span>
+  {{- end }}
+</div>

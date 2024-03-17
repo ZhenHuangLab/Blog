@@ -25,7 +25,7 @@
         </a>
         <a class="btn-secondary"
            href="{{ with $s_cta }}{{ . | relURL }}{{ else }}{{ "projects" | relURL }}{{ end }}">
-           {{ if $s_cta }}{{ with .Site.GetPage $s_cta }}{{ .LinkTitle }}{{ end }}{{ else }}All Posts{{ end }}
+           {{ if $s_cta }}{{ with .Site.GetPage $s_cta }}{{ .LinkTitle }}{{ end }}{{ else }}Posts{{ end }}
         </a>
         {{/*  <a class="btn-third"
           href="{{ with $t_cta }}{{ . | relURL }}{{ else }}{{ "projects" | relURL }}{{ end }}">
@@ -55,5 +55,9 @@
   </section>
   {{/*  Shortcodes from page content  */}}
   {{ .Content }}
+  <h2>Feel free to leave any comments here!</h2>
+  <div class="section">
+    {{ template "comments.html" . }}
+  </div>
 </div>
 {{ end }}

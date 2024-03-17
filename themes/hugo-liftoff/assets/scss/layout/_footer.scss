@@ -16,3 +16,9 @@
   @include font-size('base');
   color: var(--color-contrast-medium-high);
 }
+
+.busuanzi-footer {
+  text-align: center;
+  @include font-size('base');
+  color: var(--color-contrast-medium-high);
+}

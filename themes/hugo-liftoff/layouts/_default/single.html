@@ -1,5 +1,8 @@
 {{ define "main" }}
 <div class="container">
+  {{ if or .Params.math .Site.Params.math }}
+    {{ partial "math.html" . }}
+  {{ end }}
   <section class="page-header--c">
     <h1 class="page-header-title">{{ .Title }}</h1>
   </section>
@@ -7,6 +10,13 @@
 <section class="generic-single">
   <div class="single-container markdown">
     {{ .Content }}
+    
+    {{ if and (ne .Params.disable_comments true) }}
+      <h2>Comments</h2>
+      <div class="section">
+        {{ template "comments.html" . }}
+      </div>
+    {{ end }}
   </div>
 </section>
 {{ end }}

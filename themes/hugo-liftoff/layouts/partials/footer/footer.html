@@ -9,6 +9,23 @@
         <span> {{ . }}</span>
       {{ end }}
     </p>
+    {{ if .Site.Params.busuanzi -}}
+    <div class="busuanzi-footer">
+      <span id="busuanzi_container_site_pv">
+        Total access: <span id="busuanzi_value_site_pv"></span>;
+      </span>
+      <span id="busuanzi_container_site_uv">
+        Total visitors: <span id="busuanzi_value_site_uv"></span>;
+      </span>
+      Total pages: {{ len (where .Site.RegularPages "Kind" "page") }};
+      {{$scratch := newScratch}}
+      {{ range (where .Site.Pages "Kind" "page" )}}
+          {{$scratch.Add "total" .WordCount}}
+      {{ end }}
+      Total wordcount: {{$scratch.Get "total" }}
+    </div>
+    <br>
+    {{- end -}}
     {{ if eq .Site.Params.footer_socials true }}
       <div class="footer-socials">
         {{ partial "general/social-links.html" . }}
