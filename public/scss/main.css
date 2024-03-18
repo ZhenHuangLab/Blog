@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root, [data-theme="default"] {
   --color-primary: rgb(18, 120, 175);
   --color-inline-code: hsl(0, 81%, 35%);
@@ -779,6 +780,14 @@ body {
   line-height: calc(8px + 2ex);
   color: var(--color-contrast-medium-high); }
 
+.icon {
+  width: 1.05em;
+  margin-bottom: 0.2em;
+  height: 0.85em;
+  fill: currentColor;
+  display: inline-block;
+  vertical-align: middle; }
+
 :root {
   /* style */
   --switch-width: 48px;
@@ -1016,7 +1025,7 @@ body {
   position: relative;
   padding: 6px 15px;
   border-radius: 5px;
-  background-color: #272822;
+  background-color: #282A35;
   color: #7f7f7f;
   z-index: 1000;
   top: 25px;
@@ -1041,18 +1050,19 @@ body {
     color: var(--color-contrast-medium);
     font-weight: 300; }
 
-@media (min-width: 1200px) {
-  .toc {
-    position: sticky;
-    top: 2rem;
-    align-self: start;
-    order: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 90vh;
-    overflow-y: scroll; } }
-
+.toc {
+  list-style: none; }
+  @media (min-width: 1200px) {
+    .toc {
+      position: sticky;
+      top: 2rem;
+      align-self: start;
+      order: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 90vh;
+      overflow-y: scroll; } }
 .toc-header, .toc-drop-icon {
   font-size: var(--font-size-sm);
   line-height: calc(8px + 2ex);
@@ -1081,6 +1091,23 @@ body {
   #js-toc-toggle:hover {
     cursor: pointer;
     color: var(--color-primary); }
+
+.toc ul {
+  list-style-type: none;
+  padding-left: 0;
+  /* 重置默认的内边距 */
+  margin-left: 0;
+  /* 重置默认的外边距 */ }
+
+/* 为所有的li定义通用样式 */
+.toc li {
+  margin-bottom: 0.5rem;
+  /* 为每项添加一些底部空间 */ }
+
+/* 为二级目录项添加适当的缩进 */
+.toc li ul li {
+  padding-left: 1rem;
+  /* 或者使用适当的值调整缩进 */ }
 
 .page-header, .page-header--c {
   background-color: var(--color-contrast-lower);
@@ -1324,6 +1351,14 @@ body {
 .post-list-categories {
   display: inline-flex;
   column-gap: 10px; }
+
+.post-view-icon {
+  width: 1.05em;
+  margin-bottom: 0.2em;
+  height: 0.85em;
+  fill: currentColor;
+  display: inline-block;
+  vertical-align: middle; }
 
 .project-list {
   display: flex;

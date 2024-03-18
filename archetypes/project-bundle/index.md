@@ -22,5 +22,7 @@ live_url:
 source_url: 
 
 newsletter: true
+disable_comments: false
+math: true
 ---
 

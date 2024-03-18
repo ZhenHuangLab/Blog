@@ -1,5 +1,5 @@
 .toc {
-
+  list-style: none;
   @include respond-to('x-large') {
     position: sticky;
 	  top: 2rem;
@@ -49,4 +49,20 @@
     cursor: pointer;
     color: var(--color-primary);
   }
+}
+
+.toc ul {
+  list-style-type: none;
+  padding-left: 0; /* 重置默认的内边距 */
+  margin-left: 0; /* 重置默认的外边距 */
+}
+
+/* 为所有的li定义通用样式 */
+.toc li {
+  margin-bottom: 0.5rem; /* 为每项添加一些底部空间 */
+}
+
+/* 为二级目录项添加适当的缩进 */
+.toc li ul li {
+  padding-left: 1rem; /* 或者使用适当的值调整缩进 */
 }

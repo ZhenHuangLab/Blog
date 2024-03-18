@@ -112,22 +112,15 @@
     weight = 12
 
 [[main]]
-    identifier = "documentation"
-    name = "Documentation"
-    url = "/documentation/"
-    parent = "resources"
-    weight = 13
-
-[[main]]
     identifier = "webslides"
     name = "Webslides"
     url = "https://webslides.zhenhuang.site/"
     parent = "resources"
-    weight = 14
+    weight = 13
 
 [[main]]
     # Top-level menu entry
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 15
+    weight = 14

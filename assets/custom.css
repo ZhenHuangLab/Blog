@@ -7,6 +7,15 @@
     --color-primary: #0082C8;
 }
 
+.heading .link-icon {
+    opacity: 0.1;
+    transition: opacity 0.2s ease;
+  }
+  
+.heading:hover .link-icon {
+    opacity: 1;
+}
+
 .overlay-img {
     transition: transform 0.25s;
 }
@@ -30,3 +39,163 @@
     display: block;
     text-align: center;
 }
+
+div#runtime {
+    width: fit-content;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+[data-theme="dark"] div#runtime {
+    color: #28b4c8;
+    box-shadow: 0 0 5px rgba(28, 69, 218, 0.71);
+}
+
+/* 文字黑幕。用法：<span class="shady" title="你知道的太多了">需要隐藏的文字</span> */
+
+
+.shady {
+    color:#000;
+    box-shadow: 0px -25px 0px rgba(0,0,0,1) inset; 
+    transition: all 0.3s ease;
+}
+.shady:hover{
+    color:#FFF;
+    box-shadow: 0px -25px 0px rgba(0,0,0,1) inset; 
+}
+
+/* 文本高斯模糊。用法：<span class="blur" title="你知道的太多了">需要隐藏的文字</span>*/
+.blur {
+    color: transparent;
+    text-shadow:0px 0px 8px var(--color-text)
+}
+ 
+.blur:hover {
+    color: transparent;
+    text-shadow:0px 0px 0px var(--color-text)
+   
+}
+
+/* 键盘标签样式。例如：<kbd>Ctrl</kbd>+<kbd>D</kbd>退出root权限*/
+kbd {
+  margin: 0 .1em;
+  padding: .1em .6em;
+  font-size: .8em;
+  color: #242729;
+  background: #fff;
+  border: 1px solid #adb3b9;
+  border-radius: 3px;
+  box-shadow: 0px 1px 0 rgba(12, 13, 14, 0.2), 0 0 0 2px #fff inset;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+/* 图片轮播 */
+.swiper-container {
+    max-width: 820px;
+    margin: 2em auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        margin: 0 !important;
+    }
+}
+
+/* 公告栏设置 */
+
+.announcement-bar {
+    background-color: var(--color-primary); /* 使用变量 */
+    color: white; 
+    padding: 10px 20px; /* 增加右边距以适应关闭按钮 */
+    position: relative;
+    top: 0;
+    left: 0; /* 确保铺满 */
+    right: 0; /* 确保铺满 */
+    display: flex; /* 使用 flex 布局 */
+    justify-content: space-between; /* 两端对齐 */
+    align-items: center; /* 垂直居中 */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 轻微的阴影 */
+    z-index: 1000;
+  }
+  
+.announcement-content {
+    text-align: center; /* 居中公告文本 */
+    font-size: medium;
+}
+  
+.announcement-close {
+    display: inline-flex; /* 使用 flex 布局以便居中 SVG */
+    justify-content: center;
+    align-items: center;
+    width: 30px; /* 控制按钮大小 */
+    height: 30px;
+    padding: 0; /* 移除内边距 */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.close-icon {
+    fill: white; /* SVG 图标颜色 */
+    width: 20px; /* 控制 SVG 图标大小 */
+    height: 20px;
+  }
+
+.announcement-icon {
+    fill: white; /* SVG 图标颜色 */
+    width: 20px; /* 控制 SVG 图标大小 */
+    height: 20px;
+}
+  
+/* 鼠标悬停和聚焦时的样式调整 */
+.announcement-close:hover .close-icon,
+.announcement-close:focus .close-icon {
+    fill: var(--color-primary); /* 图标颜色变化 */
+}
+
+.announcement-close:hover,
+.announcement-close:focus {
+    background-color: white; /* 背景色变化 */
+    border-radius: 50%; /* 圆形 */
+}
+
+@media (max-width: 768px) {
+    .announcement-bar {
+      padding: 5px 10px; /* 在小屏幕上减小内边距 */
+      font-size: 14px; /* 减小字体大小以适应更小的屏幕 */
+    }
+    .announcement-content {
+        text-align: center; /* 居中公告文本 */
+        font-size: 14px;
+    }
+    .announcement-close,
+    .close-icon {
+      width: 24px; /* 在移动设备上调整关闭按钮和图标的大小 */
+      height: 24px;
+    }
+
+    .announcement-icon {
+        width: 24px; /* 在移动设备上调整关闭按钮和图标的大小 */
+        height: 24px;
+    }
+  
+    /* 确保导航栏在移动设备上正确显示 */
+    nav {
+      position: relative; /* 或其他适合移动视图的定位方式 */
+    }
+  
+    /* 调整主内容区域的顶部边距以适应公告栏和移动导航 */
+    main {
+      padding-top: 60px; /* 根据公告栏和导航栏的高度动态调整 */
+    }
+  }
+  

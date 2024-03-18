@@ -1,5 +1,6 @@
 ---
 title: Posts
-summary: Explore some of my recent posts.
+summary: You can check out more posts in Categories, Tags, or Series.
 description: Explore some of my recent posts.
+
 ---

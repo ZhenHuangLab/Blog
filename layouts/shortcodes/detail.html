@@ -1,0 +1,9 @@
+{{/*  使用注释：
+{{< detail "文本折叠" >}}
+这是折叠的文本
+{{< /detail >}}  */}}
+
+<details>
+    <summary>{{ (.Get 0) | markdownify }}</summary>
+    {{ .Inner | markdownify }}
+</details>

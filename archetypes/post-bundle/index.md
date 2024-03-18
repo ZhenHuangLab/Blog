@@ -24,5 +24,6 @@ related: true
 social_share: true
 newsletter: true
 disable_comments: false
+math: true
 ---
 

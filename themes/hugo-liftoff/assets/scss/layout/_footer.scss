@@ -22,3 +22,12 @@
   @include font-size('base');
   color: var(--color-contrast-medium-high);
 }
+
+.icon {
+  width: 1.05em;
+  margin-bottom: 0.2em;
+  height: 0.85em;
+  fill: currentColor;
+  display: inline-block;
+  vertical-align: middle;
+}

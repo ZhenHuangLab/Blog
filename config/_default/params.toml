@@ -11,9 +11,13 @@ favicon = true # Enable favicon, add your favicon files to /static/ directory
 grayscale_avatar = false # Add a grayscale filter to the avatar image
 author = 'Zhen Huang' # Default author for <head> meta
 description = "Personal blog and portfolio site of Zhen Huang." # Add a global meta description to <head>
-footer_text = "Built with [Hugo Liftoff](https://github.com/wjh18/hugo-liftoff) theme modified by [Zhen Huang](https://github.com/ZhenHuangLab)." # Customize footer text
+footer_text = "Built with [Hugo](https://gohugo.io/) & [Liftoff](https://github.com/wjh18/hugo-liftoff) modified by [Zhen Huang](https://github.com/ZhenHuangLab)." # Customize footer text
 fallback_text = "No content available yet. Coming soon." # Fallback text for empty content
-label_drafts = true # Add a label indicator next to the title of any built drafts (dev only)
+label_drafts = false # Add a label indicator next to the title of any built drafts (dev only)
+
+### Set announcement bar
+AnnouncementBar = true
+AnnouncementBarText = '''本站已重新从Wordpress迁移至Hugo，并采用二级域名，原zhenhuang.site改为landing page。'''
 
 # Customize newsletter text
 newsletter_header = "This is my custom newsletter header with a captivating title."
@@ -25,6 +29,7 @@ global_newsletter = false # Enable newsletter site-wide
 enable_postcss = false # Enable if you're using npm and want to utilize PostCSS processing
 custom_css = 'custom.css' # Add the specified file to assets before setting this param to avoid errors
 custom_js = 'custom.js' # Add the specified file to assets before setting this param to avoid errors
+enableimgloop = true # Enable image loop in post
 
 ### Web schemas
 # Open Graph
@@ -45,8 +50,8 @@ schemaImageHeight = 455 # Height of the above image
 ### Social
 # Show social links in footer, home hero section, or about page
 footer_socials = true
-home_hero_socials = true
-about_page_socials = true
+home_hero_socials = false
+about_page_socials = false
 
 # Enable or disable individual social icons
 [social.links]
@@ -54,6 +59,7 @@ about_page_socials = true
   github = "ZhenHuangLab"
   # stack_overflow = "userid/username" # include user id
   email = "zhen.victor.huang@gmail.com"
+  bilibili = "37168500"
   # linkedin = "username" # Comment out to disable
   # mastodon_server = "example.social" # include subdomains if relevant, scheme not needed (defaults to https)
   # mastodon_user = "username" # don't include preceding @

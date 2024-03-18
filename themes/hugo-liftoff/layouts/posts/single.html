@@ -37,7 +37,7 @@
 <div class="single-container-post">
   {{ partial "posts/toc.html" . }}
   <div class="single-post-contents">
-    {{/*  {{- if .Params.series }}
+    {{- if .Params.series }}
       <div class="series">
         {{- $name := index .Params.series 0 }}
         <p>Part of the <a href="{{ "series" | absURL }}/{{ $name | urlize }}/">{{$name}}</a> series:</p>
@@ -55,9 +55,10 @@
               {{ end }}
             </li>
           {{- end }}
+        <br><hr>
         </ol>
       </div>
-    {{ end }}  */}}
+    {{ end }}
     <div class="single-feature-img">{{ partial "general/feature-image.html" . }}</div>
     <article class="markdown">
         {{ .Content }}

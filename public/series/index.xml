@@ -6,68 +6,77 @@
     <description>Recent content in Series on Zhen&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2020 21:21:46 -0500</lastBuildDate><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Nov 2023 00:14:10 +0800</lastBuildDate><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown Syntax Guide 2</title>
-      <link>http://localhost:1313/subsection2/markdown-syntax-2/</link>
-      <pubDate>Thu, 19 Nov 2020 21:21:46 -0500</pubDate>
+      <title>出国出境经验分享 - 文字稿</title>
+      <link>http://localhost:1313/posts/zjucab-expshare/</link>
+      <pubDate>Wed, 20 Dec 2023 16:09:54 +0800</pubDate>
       
-      <guid>http://localhost:1313/subsection2/markdown-syntax-2/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+      <guid>http://localhost:1313/posts/zjucab-expshare/</guid>
+      <description>2020级本科生年级大会暨就业经验分享</description>
     </item>
     
     <item>
-      <title>Placeholder Text and Feature Image</title>
-      <link>http://localhost:1313/subsection/placeholder-text/</link>
-      <pubDate>Wed, 18 Nov 2020 21:21:46 -0500</pubDate>
+      <title>Cell Symposia S1 Notes</title>
+      <link>http://localhost:1313/posts/cell-symposia-s1-notes/</link>
+      <pubDate>Sat, 04 Nov 2023 00:14:10 +0800</pubDate>
       
-      <guid>http://localhost:1313/subsection/placeholder-text/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+      <guid>http://localhost:1313/posts/cell-symposia-s1-notes/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>&#34;See Also&#34; and &#34;Read Next&#34; Demo</title>
-      <link>http://localhost:1313/subsection/see-also-read-next/</link>
-      <pubDate>Tue, 17 Nov 2020 21:21:46 -0500</pubDate>
+      <title>Research Interest</title>
+      <link>http://localhost:1313/posts/research-interest/</link>
+      <pubDate>Sat, 04 Nov 2023 00:14:10 +0800</pubDate>
       
-      <guid>http://localhost:1313/subsection/see-also-read-next/</guid>
-      <description>Sample article showcasing the &#34;See Also&#34; and &#34;Read Next&#34; features.</description>
+      <guid>http://localhost:1313/posts/research-interest/</guid>
+      <description>This is a basic statement on my current research interests.</description>
     </item>
     
     <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/posts/emoji-support/</link>
-      <pubDate>Tue, 17 Nov 2020 21:21:46 -0500</pubDate>
+      <title>Research Experience</title>
+      <link>http://localhost:1313/posts/research-exp/</link>
+      <pubDate>Thu, 26 Oct 2023 12:56:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/emoji-support/</guid>
-      <description>Guide to emoji usage in Hugo.</description>
+      <guid>http://localhost:1313/posts/research-exp/</guid>
+      <description>Kind of more detailed explanation on my personal research experiences(until Oct 2023)</description>
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/subsection2/markdown-syntax/</link>
-      <pubDate>Tue, 17 Nov 2020 21:21:46 -0500</pubDate>
+      <title>Brief Workflow of Subtomogram Averaging using EMAN2</title>
+      <link>http://localhost:1313/posts/eman2-sta-averaging-tutorial/</link>
+      <pubDate>Thu, 01 Sep 2022 17:07:01 +0800</pubDate>
       
-      <guid>http://localhost:1313/subsection2/markdown-syntax/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+      <guid>http://localhost:1313/posts/eman2-sta-averaging-tutorial/</guid>
+      <description>A brief introduction about workflow of SubTomogram Average using EMAN2.99.</description>
     </item>
     
     <item>
-      <title>Really Long TOC That Scrolls</title>
-      <link>http://localhost:1313/subsection/really-long-toc/</link>
-      <pubDate>Tue, 17 Nov 2020 21:21:46 -0500</pubDate>
+      <title>EMAN2.91(WSL)安装QA</title>
+      <link>http://localhost:1313/posts/eman2-wsl-install-qa/</link>
+      <pubDate>Sat, 06 Aug 2022 17:57:10 +0800</pubDate>
       
-      <guid>http://localhost:1313/subsection/really-long-toc/</guid>
-      <description>This post has a really long TOC that scrolls.</description>
+      <guid>http://localhost:1313/posts/eman2-wsl-install-qa/</guid>
+      <description>安装基于WSL环境的EMAN2.91时遭遇的两个问题及其解决方法</description>
     </item>
     
     <item>
-      <title>Math Typesetting</title>
-      <link>http://localhost:1313/subsection/math-typesetting/</link>
-      <pubDate>Mon, 16 Nov 2020 21:21:46 -0500</pubDate>
+      <title>EMAN2 Installation Notes</title>
+      <link>http://localhost:1313/posts/eman2-installation-notes/</link>
+      <pubDate>Wed, 06 Jul 2022 10:49:24 +0800</pubDate>
       
-      <guid>http://localhost:1313/subsection/math-typesetting/</guid>
-      <description>A brief guide to setting up KaTeX.</description>
+      <guid>http://localhost:1313/posts/eman2-installation-notes/</guid>
+      <description>看网上好像没有有关EMAN2的详细安装教程，于是摸鱼水了一篇</description>
+    </item>
+    
+    <item>
+      <title>Hello Blog!</title>
+      <link>http://localhost:1313/posts/hello-blog/</link>
+      <pubDate>Mon, 04 Jul 2022 23:31:10 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/hello-blog/</guid>
+      <description>创建本小破站的初衷</description>
     </item>
     
   </channel>

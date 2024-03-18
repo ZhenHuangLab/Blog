@@ -27,6 +27,4 @@ Astrophotography and cryogenic electron microscopy actually have much in common:
 
 ## Astrophotography
 
-* [ISO/Gain in astrophotography](https://zhenhuang.site/astrophotography/iso-gain-in-astrophotography/73/)
-
 ## Pixinsight Tutorials

@@ -3,7 +3,6 @@ baseURL = 'https://blog.zhenhuang.site/' # Enter your full production URL
 languageCode = 'en-us' # Default
 timeZone = 'Asia/Shanghai' # IANA timezone https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 title = '''Zhen's BLOG''' # Site title used throughout site
-
 ### SEO, Analytics & 3rd-party
 enableRobotsTXT = true # To overwrite the theme's robots.txt, add your own in the /layouts/ directory
 rssLimit = -1 # -1 is unlimited RSS entries
@@ -21,6 +20,7 @@ disableAliases = true # Set to true if using server (Netlify, .htaccess) for red
 disableKinds = [] # Default
 enableEmoji = true # Use Emojis in content
 enableGitInfo = false # Default, enable to use git for lastmod (can be overwritten in frontmatter)
+hasCJKLanguage = true
 enableInlineShortcodes = false # Default, false is more security-friendly
 ignoreFiles = [] # Default
 # newContentEditor = 'code' # Set VS Code as default editor
@@ -81,12 +81,12 @@ theme = 'hugo-liftoff'
         title = true
     [markup.goldmark.renderer]
       hardWraps = false
-      unsafe = false
+      unsafe = true
       xhtml = false
   [markup.highlight]
     anchorLineNos = false
     codeFences = true
-    guessSyntax = false
+    guessSyntax = true
     hl_Lines = ''
     lineAnchors = ''
     lineNoStart = 1
@@ -94,7 +94,7 @@ theme = 'hugo-liftoff'
     lineNumbersInTable = false # Not the default
     noClasses = true
     noHl = false
-    style = 'monokai'
+    style = 'base16-snazzy'
     tabWidth = 4
   [markup.tableOfContents]
     endLevel = 3
