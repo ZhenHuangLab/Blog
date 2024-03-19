@@ -16,6 +16,8 @@ disable_comments: false
 math: true
 ---
 
+![Research](research-banner.jpg)
+
 ## Research Interest
 
 * Biological physics, Biological chemistry, Structural Biology
@@ -23,7 +25,7 @@ math: true
 * Combination of various methods such as SPA and cryo-ET to achieve high-resolution visualization of flexible regions, macromolecules, dynamic protein complexes, and even whole cell *in situ*
 * Cellular level molecular interaction landscape, Molecular Sociology
 
-To understand why I am interested in fields such as biology, structural biology, and cryo-electron microscopy, please refer to this [post](https://zhenhuang.site/essays/research-interests/245/).
+To understand why I am interested in fields such as biology, structural biology, and cryo-electron microscopy, please refer to this [post](../posts/research-interest/).
 
 ## Experience
 
@@ -32,7 +34,7 @@ To understand why I am interested in fields such as biology, structural biology,
 * **Brain Tumor Segmentation Based on U-net(Best CV project)**, Imperial College London Data Science Institute, 2023 winter school, Jan. 2023 - Feb. 2023
 * **Purification and application research of plant CUL1 antibody**, Advisor: [Jie Dong](https://person.zju.edu.cn/0020164), College of Agriculture and Biotechnology ZJU, Oct. 2021 - Jun. 2022
 
-For a much more detailed statement on my research experience, please check out [this]( https://zhenhuang.site/essays/research-experiences/248/).
+For a much more detailed statement on my research experience, please check out [this](../posts/research-exp/).
 
 ## Pubilcations
 

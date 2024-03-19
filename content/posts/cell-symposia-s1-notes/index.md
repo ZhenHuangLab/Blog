@@ -16,9 +16,10 @@ feature_image:
 feature_image_alt: 
 
 categories:
+    - Research Study
 tags:
 series:
-    - Cell Symposia 2023 Structural Biology
+    - Cell_Symposia_2023_Structural_Biology
 
 toc: true
 related: true

@@ -15,6 +15,8 @@ newsletter: false
 disable_comments: false
 ---
 
+![AstroNotes](astronotes-banner.jpeg#small)
+
 ## A Few Words Before...
 
 I have been extremely instereted in Astronomy since I was 9 years old. I was so impressed by total lunar eclipse that occurred on December 10, 2011. Following that extraordinary event, I have read lots of different kinds of popular science books about astronomy. By October 2021, my interest had pivoted towards astrophotography, a passion that eventually influenced my decision to pursue cryo-EM in my research endeavors.
@@ -26,5 +28,7 @@ Astrophotography and cryogenic electron microscopy actually have much in common:
 * Data (or image) collection in both realms demands meticulous **correction of any drifts**. Mechanical errors can critically compromise the imaging of the region of interest (ROI) in both astrophotography and cryo-EM. So, the importance of a stable mount and a precise guiding system in astrophotography cannot be overstated.
 
 ## Astrophotography
+
+* [深入理解天文摄影中的ISO/Gain](https://zhuanlan.zhihu.com/p/577205266)
 
 ## Pixinsight Tutorials

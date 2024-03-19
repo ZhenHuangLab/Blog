@@ -16,8 +16,9 @@ disable_comments: false
 math: true
 ---
 
-> A Quick Note:
+{{<notice note>}}
 Astrophotography is not only time-consuming and expensive, but it also requires both physical and mental effort. In 2023, due to my studies and research, I often didn't have the time to seriously take and process images. However, I'm sure there will be opportunities to update in the future!
+{{</notice>}}
 
 I love astrophotography—it's my top hobby. In my spare time, I learn and practice how to capture and process deep sky images. **These photos make me feel the wonder of the universe and how small yet amazing we are as humans.** Below is a selection of images taken by me.
 
