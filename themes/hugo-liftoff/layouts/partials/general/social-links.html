@@ -1,6 +1,12 @@
 <!-- Social Share Button HTML -->
 <div class="social-links">
   <ul class="social-icons">
+    <!-- Homepage -->
+    <li>
+      <a href="https://zhenhuang.site" target="_blank" rel="noopener" aria-label="Visit Homepage" class="social-btn">
+        {{ partial "svg/compass.svg" }}
+      </a>
+    </li>
     <!-- Twitter -->
     {{ with .Site.Params.social.links.twitter }}
     <li>
@@ -55,7 +61,7 @@
     </li>
     {{ end }}
 
-    <!-- Email -->
+    <!-- Bilibili -->
     {{ with .Site.Params.social.links.bilibili }}
     <li>
       <a href="https://space.bilibili.com/{{ . }}" target="_blank" rel="noopener" aria-label="Visit Bilibili profile" class="social-btn">
@@ -63,6 +69,10 @@
       </a>
     </li>
     {{ end }}
-    
+    <li>
+      <a href="https://status.zhenhuang.site" target="_blank" rel="noopener" aria-label="Visit uptime monitor" class="social-btn">
+        {{ partial "svg/signal.svg" }}
+      </a>
+    </li>
   </ul>
 </div>
