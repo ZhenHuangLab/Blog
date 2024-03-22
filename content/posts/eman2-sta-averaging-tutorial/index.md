@@ -99,7 +99,7 @@ Generating the initial model is straightforward. Choose the particle set produce
 
 The final result is:
 
-![the initial model](the-initial-model.jpg#small)
+![the initial model](the-initial-model.png#small)
 
 As you can see, the initial model structure is very rough, with a resolution of about 38 Ångström. However, for the subsequent particle template search, this is sufficient.
 
