@@ -15,8 +15,8 @@ description: Learn more about my background and experience.
 * Undergrad in Zhejiang University now, visiting student at MB&B, Yale Med School(Jul-Oct 2023)
 * Currently working on [cryo-EM(Biophysics & Biochemistry)](../research/)
 * Love Biology & Astronomy
-* Like tinkering with things, DIY gives me a strong sense of accomplishment
-* Have a passion for logic and reasoning, enjoy viewing biology from a physics and CS perspective
+* DIY!
+* Enjoy viewing biology from a physics and CS perspective
 * Especially interested in studying image formation and processing. **Images shape our perception of the WORLD!**
 
 btw, [why setting up this webite?](../posts/hello-blog/)
@@ -29,12 +29,15 @@ btw, [why setting up this webite?](../posts/hello-blog/)
 * Kind of good at guitar(have not played it for a long time...XD)
 * Pop, Electronpop music...and KTV
 
-{{<imgloop "../assets/images/about/xihu.jpeg,../assets/images/about/longjin.jpg,../assets/images/about/ny.jpeg,../assets/images/about/zijingang.jpeg">}}
+{{<imgloop "../assets/images/about/longjin.jpg,../assets/images/about/ny.jpeg,../assets/images/about/zijingang.jpeg">}}
 
-## Curriculum Vitae
+## Timeline for my personal website
 
-To view me from a more formal perspective, please check out my [CV](../assets/files/CV-zhenhuang.pdf). [Last update: 11/25/2023]
+为什么要移到Github呢，<span class="shady" title="你知道的太多了">因为租服务器一直出钱不值，以后总要托管到Github上，</span>因为Wordpress网站经常收到各种垃圾邮件和评论，页面太慢；静态页面也更好DIY。
 
-## Feel free to Contact Me!
-
-Email: x *at* zju *dot* edu *dot* cn, x = hzvictor
+{{< timeline date="2024.03" title="设计主页" description="将所有子页面部署至Github并开源" tags="Github, Astro"  >}}
+{{< timeline date="2024.03" title="移至Hugo" description="部署回Github，使用Hugo Liftoff并自定义" tags="Github, Hugo"  >}}
+{{< timeline date="2023.12" title="增加Kirastar页面" description="在Github上使用mkdocs，开启Kirastar计划" tags="Github, Mkodcs"  >}}
+{{< timeline date="2023.11" title="增加Webslides页面" description="在私人服务器上建站" tags="Wordpress"  >}}
+{{< timeline date="2023.10" title="移至Wordpress" description="部署至腾讯云私人服务器" tags="Wordpress, Mynote"  >}}
+{{< timeline date="2022.07.03" title="建站" description="使用Hexo fluid主题" tags="Github, Hexo"  >}}

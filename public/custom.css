@@ -109,7 +109,18 @@ kbd {
         margin: 0 !important;
     }
 }
-
+[data-theme="dark"] .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #121212;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        margin: 0 !important;
+    }
+}
 
 /* 公告栏设置 */
 

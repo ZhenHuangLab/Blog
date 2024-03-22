@@ -493,22 +493,6 @@ form {
   form button {
     cursor: pointer; }
 
-/* 图片轮播 */
-.swiper-container {
-  max-width: 820px;
-  margin: 2em auto; }
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background-color: #fff;
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .swiper-slide img {
-    margin: 0 !important; }
-
 @font-face {
   font-family: 'Roboto';
   src: local("Roboto Thin"), url("/fonts/Roboto/Roboto-Thin.ttf") format("truetype");
