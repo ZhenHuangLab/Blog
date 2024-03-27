@@ -16,4 +16,26 @@ disable_comments: false
 math: true
 ---
 
-绝赞施工中！
+![コネクト](links-banner.png#small)
+<span class="caption">コネクト</span>
+
+{{<notice info>}}
+绝赞施工中！🚧
+{{</notice>}}
+
+## 资源链接合集 Useful Resources
+
+1. [CS自学指南](https://csdiy.wiki/)
+2. [谈谈如何让自己看上去、闻上去都像一个CS人 - CC98](https://www.cc98.org/topic/5370849)
+（强烈推荐！上wk的Python课时老师也提到了类似的观点。）
+3. [清华计算机系学生科协技能引导文档](https://docs.net9.org/)
+4. [鹤翔万里的笔记本](https://note.tonycrane.cc/)
+5. [Isshiki修's Notebook](https://note.isshikih.top/)
+6. [Jiepeng's notes](https://note.jiepeng.tech/)
+7. [永雏塔菲Bert-Vits2在线语音生成](https://huggingface.co/spaces/digitalxingtong/Taffy-Bert-VITS2)
+
+## 友情链接 Contact
+
+虚位以待～～～
+
+欢迎朋友们给我发主页链接、ID、以及一句话介绍喵！

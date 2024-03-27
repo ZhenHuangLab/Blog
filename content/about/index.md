@@ -42,8 +42,10 @@ btw, [why setting up this webite?](../posts/hello-blog/)
 {{< timeline date="2023.10" title="移至Wordpress" description="部署至腾讯云私人服务器" tags="Wordpress, Mynote"  >}}
 {{< timeline date="2022.07.03" title="建站" description="使用Hexo fluid主题" tags="Github, Hexo"  >}}
 
-## 友情链接 Contact
+## Acknowledgement 致谢
 
-虚位以待～～～
+这个博客以及我的其他子网站的制作灵感离不开浙大老师和同学们对我的影响，特别是CS以及混合班的一些同学，比如[Github@鹤翔万里](https://github.com/TonyCrane)。在[Links](../links/)页面也有更多类似的友情链接。欢迎关注！
 
-欢迎朋友们给我发主页链接、ID、以及一句话介绍喵！
+## License
+
+Licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NonCommercial 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"></a></p>
