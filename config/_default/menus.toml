@@ -119,8 +119,15 @@
     weight = 13
 
 [[main]]
+    identifier = "links"
+    name = "Links"
+    url = "/links/"
+    parent = "resources"
+    weight = 14
+
+[[main]]
     # Top-level menu entry
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 14
+    weight = 15

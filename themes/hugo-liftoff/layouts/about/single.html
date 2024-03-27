@@ -10,6 +10,10 @@
   {{ end }}
   <article class="single-container markdown">
     {{ .Content }}
+    <h2>Comments</h2>
+    <div class="section">
+      {{ template "comments.html" . }}
+    </div>
   </article>
 </div>
 {{ end }}

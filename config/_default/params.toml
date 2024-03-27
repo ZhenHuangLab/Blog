@@ -12,7 +12,7 @@ grayscale_avatar = false # Add a grayscale filter to the avatar image
 author = 'Zhen Huang' # Default author for <head> meta
 description = "Personal blog and portfolio site of Zhen Huang." # Add a global meta description to <head>
 footer_text = "Built with [Hugo](https://gohugo.io/) & [Liftoff](https://github.com/wjh18/hugo-liftoff) modified by [Zhen Huang](https://github.com/ZhenHuangLab)." # Customize footer text
-fallback_text = "No content available yet. Coming soon." # Fallback text for empty content
+fallback_text = "No content available yet. Coming soon. 目前没有内容。" # Fallback text for empty content
 label_drafts = false # Add a label indicator next to the title of any built drafts (dev only)
 
 ### Set announcement bar

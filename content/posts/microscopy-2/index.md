@@ -125,6 +125,29 @@ So a tube lens is needed to take these parallel light and refocuses it to create
 
 Magnification: $M = \frac{f_1}{f_0}$
 
+The reason why people choose this design is that all the light is travelling parallel before the tube lens so one can place the tube lens in different points of the light path, which provides flexibility for putting more types of lens and devices.
+
+So the advantages are:
+
+* the object is in the focal plane;
+* the light between the objective and the tube lens is parallel so it doesn’t matter where the tube lens is placed (we can add other elements - mirrors, filters etc. - in the path)
+
+### the Compound Microscope with Eyepiece or Camera
+
+Based on the infinite conjugate imaging system, the imaging system with eyepiece looks like:
+
+![Compound-Microscope-with-Eyepiece](Compound-Microscope-with-Eyepiece.png#small)
+
+When with camera:
+
+![Compound-Microscope-with-Camera](Compound-Microscope-with-Camera.png#small)
+
+## Illuminating the Specimen
+
+## Reference
+
+[Optical Microscopy - Principles and Applications](https://scholar.harvard.edu/files/haripaudel/files/optical_microscopy_tutorial_h.pdf)
+
 
 Aberrations:
 

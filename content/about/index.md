@@ -1,7 +1,7 @@
 ---
 type: about
 linktitle: About
-title: Hi, my name is Zhen Huang.
+title: 黄振 ｜ Zhen Huang
 seo_title: About
 description: Learn more about my background and experience.
 ---
@@ -12,12 +12,12 @@ description: Learn more about my background and experience.
 
 ![Static Badge](https://img.shields.io/badge/BIO-ASTRO-blue) ![Static Badge](https://img.shields.io/badge/cryo-EM-orange)  [![wakatime](https://wakatime.com/badge/user/018b6591-20df-4e17-9e3a-30529d0b82ca.svg)](https://wakatime.com/@018b6591-20df-4e17-9e3a-30529d0b82ca) ![Static Badge](https://img.shields.io/badge/last_modified-10/25/2023-red)
 
-* Undergrad in Zhejiang University now, visiting student at MB&B, Yale Med School(Jul-Oct 2023)
+* Senior in Zhejiang University now, visiting student at MB&B, Yale Med School(Jul-Oct 2023)
 * Currently working on [cryo-EM(Biophysics & Biochemistry)](../research/)
 * Love Biology & Astronomy
 * DIY!
 * Enjoy viewing biology from a physics and CS perspective
-* Especially interested in studying image formation and processing. **Images shape our perception of the WORLD!**
+* Especially interested in studying image formation and processing.
 
 btw, [why setting up this webite?](../posts/hello-blog/)
 
@@ -41,3 +41,9 @@ btw, [why setting up this webite?](../posts/hello-blog/)
 {{< timeline date="2023.11" title="增加Webslides页面" description="在私人服务器上建站" tags="Wordpress"  >}}
 {{< timeline date="2023.10" title="移至Wordpress" description="部署至腾讯云私人服务器" tags="Wordpress, Mynote"  >}}
 {{< timeline date="2022.07.03" title="建站" description="使用Hexo fluid主题" tags="Github, Hexo"  >}}
+
+## 友情链接 Contact
+
+虚位以待～～～
+
+欢迎朋友们给我发主页链接、ID、以及一句话介绍喵！

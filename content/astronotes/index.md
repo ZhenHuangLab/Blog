@@ -1,6 +1,6 @@
 ---
-title: AstroNotes
-seo_title: AstroNotes
+title: Astro Notes
+seo_title: Astro Notes
 description: 
 slug: astronotes
 author: Zhen Huang
@@ -32,3 +32,5 @@ Astrophotography and cryogenic electron microscopy actually have much in common:
 * [深入理解天文摄影中的ISO/Gain](https://zhuanlan.zhihu.com/p/577205266)
 
 ## Pixinsight Tutorials
+
+内容正在赶来的路上～～～或许可以先看看kirastar呢
