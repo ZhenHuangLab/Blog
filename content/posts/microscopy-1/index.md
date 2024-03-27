@@ -76,7 +76,7 @@ So the 19th century was really the time when it was discovered how to fix cells 
 
 For example, Abbe had achieved resolution which actually matched the theoretical limit in 1888, and microscopes really have not, until very recently, exceeded the limit set by the type of microscope that Abbe invented.
 
-{{<notice tip>}}
+{{<notice tip "Brief Summary">}}
 
 So, we can conclude that for compound microscope:
 
@@ -86,6 +86,6 @@ So, we can conclude that for compound microscope:
 
 {{</notice>}}
 
-This post is a short summary of this video below. You can check out it for detailed explanation!
+This post is a short summary of this Youtube video below. You can check out it for detailed explanation!
 
 {{< youtube U73iwy3YqCA >}}

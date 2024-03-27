@@ -1,5 +1,5 @@
 {{/*  使用注释：
-{{< notice warning/tip/info/note >}}
+{{< notice warning/tip/info/note "Title">}}
 This is a warning notice. Be warned!
 {{< /notice >}} 
 */}}
@@ -7,7 +7,7 @@ This is a warning notice. Be warned!
 
 {{/* Available notice types: warning, info, note, tip */}}
 {{- $noticeType := .Get 0 | default "note" -}}
-
+{{- $customTitle := .Get 1 | default "" -}}
 {{/* Workaround markdownify inconsistency for single/multiple paragraphs */}}
 {{- $raw := (markdownify .Inner | chomp) -}}
 {{- $block := findRE "(?is)^<(?:address|article|aside|blockquote|canvas|dd|div|dl|dt|fieldset|figcaption|figure|footer|form|h(?:1|2|3|4|5|6)|header|hgroup|hr|li|main|nav|noscript|ol|output|p|pre|section|table|tfoot|ul|video)\\b" $raw 1 -}}
@@ -30,7 +30,7 @@ This is a warning notice. Be warned!
         --tip-content: #efe
     }
 
-    @media (prefers-color-scheme:dark) {
+    {{/*  @media (prefers-color-scheme:dark) {
         .notice {
             --root-color: #ddd;
             --root-background: #eff;
@@ -45,9 +45,23 @@ This is a warning notice. Be warned!
             --tip-title: #363;
             --tip-content: #121
         }
-    }
+    }  */}}
 
-    body.dark .notice {
+    {{/*  body.dark .notice {
+        --root-color: #ddd;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #800;
+        --warning-content: #400;
+        --info-title: #a50;
+        --info-content: #420;
+        --note-title: #069;
+        --note-content: #023;
+        --tip-title: #363;
+        --tip-content: #121
+    }  */}}
+    [data-theme="dark"] .notice {
         --root-color: #ddd;
         --root-background: #eff;
         --title-color: #fff;
@@ -68,7 +82,8 @@ This is a warning notice. Be warned!
         margin-bottom: 24px;
         border-radius: 4px;
         color: var(--root-color);
-        background: var(--root-background)
+        background: var(--root-background);
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
 
     .notice p:last-child {
@@ -143,7 +158,7 @@ This is a warning notice. Be warned!
         <span class="icon-notice baseline">
             {{ printf "icons/%s.svg" $noticeType | readFile | safeHTML }}
         </span>
-        {{- i18n $noticeType -}}
+        {{- i18n $noticeType -}}{{ if $customTitle }}: &nbsp;{{ $customTitle | markdownify }}{{ end }}
     </p>
     {{- if or $block (not $raw) }}{{ $raw }}{{ else }}<p>{{ $raw }}</p>{{ end -}}
 </div>

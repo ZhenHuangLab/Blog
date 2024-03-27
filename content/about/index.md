@@ -23,9 +23,11 @@ btw, [why setting up this webite?](../posts/hello-blog/)
 
 ## FUN
 
+{{<align center "\_(:з」∠)\_">}}
+
 * Traveling, photography, going out with friends!
 * Badminton, swimming, working out
-* アニメ(Anime), science fiction, popular science book
+* [アニメ](https://bgm.tv/user/zhenhuang)(Anime), science fiction, popular science book
 * Kind of good at guitar(have not played it for a long time...XD)
 * Pop, Electronpop music...and KTV
 
@@ -36,15 +38,17 @@ btw, [why setting up this webite?](../posts/hello-blog/)
 为什么要移到Github呢，<span class="shady" title="你知道的太多了">因为租服务器一直出钱不值，以后总要托管到Github上，</span>因为Wordpress网站经常收到各种垃圾邮件和评论，页面太慢；静态页面也更好DIY。
 
 {{< timeline date="2024.03" title="设计主页" description="将所有子页面部署至Github并开源" tags="Github, Astro"  >}}
-{{< timeline date="2024.03" title="移至Hugo" description="部署回Github，使用Hugo Liftoff并自定义" tags="Github, Hugo"  >}}
-{{< timeline date="2023.12" title="增加Kirastar页面" description="在Github上使用mkdocs，开启Kirastar计划" tags="Github, Mkodcs"  >}}
+{{< timeline date="2024.03" title="移至Hugo" description="使用Liftoff主题并自定义" tags="Github, Hugo"  >}}
+{{< timeline date="2023.12" title="增加Kirastar页面" description="在Github上使用mkdocs" tags="Github, Mkodcs"  >}}
 {{< timeline date="2023.11" title="增加Webslides页面" description="在私人服务器上建站" tags="Wordpress"  >}}
 {{< timeline date="2023.10" title="移至Wordpress" description="部署至腾讯云私人服务器" tags="Wordpress, Mynote"  >}}
 {{< timeline date="2022.07.03" title="建站" description="使用Hexo fluid主题" tags="Github, Hexo"  >}}
 
 ## Acknowledgement 致谢
 
-这个博客以及我的其他子网站的制作灵感离不开浙大老师和同学们对我的影响，特别是CS以及混合班的一些同学，比如[Github@鹤翔万里](https://github.com/TonyCrane)。在[Links](../links/)页面也有更多类似的友情链接。欢迎关注！
+这个博客以及我的其他子网站的制作灵感离不开浙大老师和同学们对我的影响，特别是CS以及竺院（比如混合班）的一些同学，例如[Github@鹤翔万里](https://github.com/TonyCrane)。
+
+在[Links](../links/)页面也有更多类似的友情链接。欢迎关注！
 
 ## License
 

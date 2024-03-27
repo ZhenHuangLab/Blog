@@ -144,12 +144,34 @@ When with camera:
 
 ## Illuminating the Specimen
 
+We need to collect and focus light onto the specimen. There are two ways to do this:
+
+* Köhler Illumination
+* Critical Illumination
+
+For transmitted light, the best way to illuminate the specimen is using **Köhler illumination**.
+
+But why? We can compare these two methods:
+
+For Köhler illumination:
+
+* Light source can produce a parallel beam of light;
+* We can get uniform light intensity at the sample even if the light source is ugly and nonuniform.
+
+![Kohler-illumination](Kohler-illumination.png#small)
+
+<span class="caption">Left: Image-forming; Right: Illumination</span>
+
+But for critical illumination:
+
+* The light source is focused and imaged onto the sample;
+* Usable only if the light source is *prefectly* uniform. (very hard!)
+
+In Köhler Illumination, we can see the back focal plane with a "Bertrand lens" or a telescope eye piece.
+
+![Bertrand-lens](Bertrand-lens.png#small)
+
 ## Reference
 
-[Optical Microscopy - Principles and Applications](https://scholar.harvard.edu/files/haripaudel/files/optical_microscopy_tutorial_h.pdf)
-
-
-Aberrations:
-
-* chromatic aberration
-* spherical aberration
+1. [Optical Microscopy - Principles and Applications](https://scholar.harvard.edu/files/haripaudel/files/optical_microscopy_tutorial_h.pdf)
+2. [Microscopy: Microscope Imaging and Koehler Illumination (Ron Vale)](https://www.youtube.com/watch?v=H5-CfX3XLf0)
