@@ -35,7 +35,7 @@ There are some [class notes](https://zhenh.notion.site/f21d69aaa7214868b465490a9
 
 ## Series & Posts
 
-You can look for more notes in Series & Posts!
+You can look for more notes in [Series](../series/) & [Posts](../posts/)!
 
 * [Microscopy](../series/microscopy/)
 * [EMAN2](../series/eman2/)
