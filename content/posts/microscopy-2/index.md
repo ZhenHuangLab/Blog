@@ -2,7 +2,7 @@
 title: Lenses and Image Formation
 seo_title: Lenses and Image Formation
 summary: 
-description: 
+description: The principles behind lenses and how they form images.
 slug: microscopy-2
 author: Zhen Huang
 

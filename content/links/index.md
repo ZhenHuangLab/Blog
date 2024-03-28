@@ -26,8 +26,11 @@ math: true
 ## 资源链接合集 Useful Resources
 
 1. [CS自学指南](https://csdiy.wiki/)
+
+    一位北大信科的前辈做的，太伟大了
 2. [谈谈如何让自己看上去、闻上去都像一个CS人 - CC98](https://www.cc98.org/topic/5370849)
-（强烈推荐！上wk的Python课时老师也提到了类似的观点。）
+
+    强烈推荐！上Python课的时候wk也提到了类似的观点，印象深刻。
 3. [清华计算机系学生科协技能引导文档](https://docs.net9.org/)
 4. [鹤翔万里的笔记本](https://note.tonycrane.cc/)
 5. [Isshiki修's Notebook](https://note.isshikih.top/)

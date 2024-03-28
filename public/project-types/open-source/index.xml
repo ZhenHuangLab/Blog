@@ -8,12 +8,21 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Oct 2023 12:45:18 +0800</lastBuildDate><atom:link href="http://localhost:1313/project-types/open-source/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Objective lenses &amp; Aberrations</title>
+      <link>http://localhost:1313/posts/microscopy-3/</link>
+      <pubDate>Thu, 28 Mar 2024 10:24:05 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/microscopy-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Lenses and Image Formation</title>
       <link>http://localhost:1313/posts/microscopy-2/</link>
       <pubDate>Sun, 24 Mar 2024 17:47:03 +0800</pubDate>
       
       <guid>http://localhost:1313/posts/microscopy-2/</guid>
-      <description></description>
+      <description>The principles behind lenses and how they form images.</description>
     </item>
     
     <item>
