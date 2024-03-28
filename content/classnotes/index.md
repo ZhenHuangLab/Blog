@@ -33,10 +33,10 @@ There are some [class notes](https://zhenh.notion.site/f21d69aaa7214868b465490a9
 * [【回忆卷】21-22夏植物保护学（园艺）II 期末](https://www.cc98.org/topic/5356545)
 * [【回忆卷】21-22春夏学期分子生物学及实验（甲）](https://www.cc98.org/topic/5354571)
 
-## Cell Symposia structural biology 2023 - notes
+## Series & Posts
 
-* Session 1: [Structure of Membrane Proteins and Membrane Protein Complexes](../posts/cell-symposia-s1-notes/)
-* Session 2: [Physiologically important structures and macromolecular machines](../posts/cell-symposia-s2-notes/)
-* Session 3: [Advances in Structural Virology](../posts/cell-symposia-s3-notes/)
-* Session 4: [In cell Structural Biology](../posts/cell-symposia-s4-notes/)
-* Session 5: [Infection and Immune Responses](../posts/cell-symposia-s5-notes/)
+You can look for more notes in Series & Posts!
+
+* [Microscopy](../series/microscopy/)
+* [EMAN2](../series/eman2/)
+* [Cell_Symposia_2023_Structural_Biology](../series/cell_symposia_2023_structural_biology/)
