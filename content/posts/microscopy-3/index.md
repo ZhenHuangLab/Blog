@@ -2,7 +2,7 @@
 title: Objective lenses & Aberrations
 seo_title: Objective lenses & Aberrations
 summary: 
-description: 
+description: Brief Introduction about complex lenses systems and aberrations.
 slug: microscopy-3
 author: Zhen Huang
 
