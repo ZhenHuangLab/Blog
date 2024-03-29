@@ -52,6 +52,10 @@ where $n$ is the refractive index of the immersion media between the lens and th
 
 ![numerical-aperture](numerical-aperture.png#small)
 
+![Objectives vary in their numerical aperture](Objectives-vary-in-their-numerical-aperture.png#small)
+
+<span class="caption">Objectives vary in their numerical aperture</span>
+
 Why immersion media increases NA? Because when using higher refractive index media, we can decrease the refraction out of the collectible area of the lens, and get more light into the lens.
 
 ![immersion-media-increases-NA](immersion-media-increases-NA.png#small)
@@ -136,4 +140,6 @@ Axial Chromatic Aberration can be corrected with an achromatic doublet lens grou
 
 ## Reference
 
-[Microscopy: Objectives and Eyepieces (Stephen Ross)](https://www.youtube.com/watch?v=Y2tn7Prw1GA)
+1. [Microscopy: Objectives and Eyepieces (Stephen Ross)](https://www.youtube.com/watch?v=Y2tn7Prw1GA)
+
+2. [Numerical Aperture - MicroscopyU](https://www.microscopyu.com/microscopy-basics/numerical-aperture)
