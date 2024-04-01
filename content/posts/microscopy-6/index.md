@@ -1,8 +1,8 @@
 ---
-title: Resolution
-seo_title: Resolution
+title: Resolution & Sampling
+seo_title: Resolution & Sampling
 summary: 
-description: 
+description: The factors that influence resolution and how to sample an image properly.
 slug: microscopy-6
 author: Zhen Huang
 
