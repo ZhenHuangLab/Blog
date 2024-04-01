@@ -71,10 +71,16 @@ What we get in the middle is a very elliptical shape, (which should have been a 
 #### On an XZ section
 
 * More spread along the optical axis (Z axis);
-* First dark island at $2n\frac{\lambda}{NA^2}$;
+* First dark island at $2n\frac{\lambda}{NA^2}$; ( $n$ is the refractive index.)
 * Most light within two cones.
 
 ![psf-xz](psf-xz.png#small)
+
+#### Overall distribution
+
+![psf-width-height](psf-width-height.png#small)
+
+<span class="caption">Width and Depth of PSF[^3]</span>
 
 ### Effect of NA on PSF
 
@@ -94,10 +100,11 @@ $$
 
 Objects in a diffraction-limited image of your sample will never appear smaller than the PSF.
 
-For example, that's say you have two microtubules in your specimen and you have labeled them with GFP, and you imaged them with a 1.4 NA oil objective lens. Microtubules are about 25 nm in diameter, and the PSF for this setup is about 240 nm. So each fluorophore in the microtubule will be convolved with the PSF. You can easily tell by the end of the microtubule that there are two separate microtubules, but not at all by the middle where they are closer than the PSF[^3].
+For example, that's say you have two microtubules in your specimen and you have labeled them with GFP, and you imaged them with a 1.4 NA oil objective lens. Microtubules are about 25 nm in diameter, and the PSF for this setup is about 240 nm. So each fluorophore in the microtubule will be convolved with the PSF. You can easily tell by the end of the microtubule that there are two separate microtubules, but not at all by the middle where they are closer than the PSF[^4].
 
 ![microtubule-convolve](microtubule-convolve.png#small)
 
 [^1]: [Microscopy: Point Spread Function (Jeff Lichtman)](https://www.youtube.com/watch?v=JQy94K94nL0)
 [^2]: [Principles of Microscopy I: Point Spread Function and Resolution](https://indico.ictp.it/event/8007/session/17/contribution/88/material/slides/0.pdf)
-[^3]: [The Point Spread Function - Microcourses](https://www.youtube.com/watch?v=Tkc_GOCjx7E)
+[^3]: [How the point spread function influence microscopy resolution? | SIMTRUM Photonics Store](https://www.simtrum.com/WebShop/ResourceInfo.aspx?id=4444)
+[^4]: [The Point Spread Function - Microcourses](https://www.youtube.com/watch?v=Tkc_GOCjx7E)
