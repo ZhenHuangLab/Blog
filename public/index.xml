@@ -6,14 +6,23 @@
     <description>Recent content in 👋 Hi, I am Zhen! on Zhen&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Apr 2024 18:48:13 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Apr 2024 16:27:21 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Image Processing in Fourier Space</title>
+      <link>http://localhost:1313/posts/microscopy-8/</link>
+      <pubDate>Thu, 04 Apr 2024 16:27:21 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/microscopy-8/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Fourier Optics</title>
       <link>http://localhost:1313/posts/microscopy-7/</link>
       <pubDate>Mon, 01 Apr 2024 18:48:13 +0800</pubDate>
       
       <guid>http://localhost:1313/posts/microscopy-7/</guid>
-      <description></description>
+      <description>Notes about basic Fourier Transform, the relationship between Fourier Transform and the lens, 2D/3D Fourier Transform in the context of microscopy.</description>
     </item>
     
     <item>
