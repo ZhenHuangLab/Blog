@@ -6,7 +6,7 @@ description:
 slug: microscopy-8
 author: Zhen Huang
 
-draft: false
+draft: true
 date: 2024-04-04T16:27:21+08:00
 lastmod: 
 expiryDate: 
