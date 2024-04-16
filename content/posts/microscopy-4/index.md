@@ -117,7 +117,7 @@ So we can understand the interference of light from two wavelets:
 
 Think about how numerical aperture (NA) affects the converging spherical wave coming out of the tube lens. Say the distance of the furthest two wavelets means the aperture of the lens, as the figures show below:
 
-![high-and-low-na-index-2024-04-16-00-27-27](https://lfs.zhenhuang.site/images/high-and-low-na-index-2024-04-16-00-27-27.pn#small)
+![high-and-low-na-index-2024-04-16-00-27-27](https://lfs.zhenhuang.site/images/high-and-low-na-index-2024-04-16-00-27-27.png#small)
 
 It is obvious that if you have a high NA lens, a greater portion of the spherical wave is collected by the objective, which means the plane wave leaving the back aperture of the objective is wider, so **the distance between the furthest wavelets are farther apart than a low numerical aperture lens**.
 
