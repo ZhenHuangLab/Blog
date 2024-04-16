@@ -16,7 +16,7 @@ disable_comments: false
 math: true
 ---
 
-![Research](research-banner.jpg)
+![research-banner-2024-04-16-11-01-08](https://lfs.zhenhuang.site/images/research-banner-2024-04-16-11-01-08.jpg#small)
 
 ## Research Interest
 

@@ -32,7 +32,7 @@ math: true
 
 ## 所谓“双层城市”
 
-![督工](image.png)
+![督工评论-2024-04-16-10-58-13](https://lfs.zhenhuang.site/images/督工评论-2024-04-16-10-58-13.png#small)
 
 <span class="caption">马督工分享的有关双层城市的想法</span>
 

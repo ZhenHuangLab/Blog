@@ -51,7 +51,7 @@ Light slows down in materials.
 
 index of refraction (n) = the speed of light in vacuum / the speed of light in a material.
 
-![index-of-refraction](index-of-refraction.png#small)
+![index-of-refraction-index-2024-04-15-17-40-16](https://lfs.zhenhuang.site/images/index-of-refraction-index-2024-04-15-17-40-16.png#small)
 
 ### Interface
 
@@ -90,7 +90,7 @@ $$ \frac{1}{L_1} + \frac{1}{L_2} = \frac{1}{f}$$
 
 where $L_1$ and $L_2$ are the distances between object(image) and lens.
 
-![single-lens-imaging](single-lens-imaging.png#small)
+![single-lens-imaging-index-2024-04-15-17-40-35](https://lfs.zhenhuang.site/images/single-lens-imaging-index-2024-04-15-17-40-35.png#small)
 
 Assumptions:
 
@@ -111,7 +111,7 @@ From 1970s to 1980s.
 
 The specimen or object is placed a short distance away from the focal point of this objective.
 
-![Finite-conjugate-imaging](Finite-conjugate-imaging.png#small)
+![Finite-conjugate-imaging-index-2024-04-15-18-10-00](https://lfs.zhenhuang.site/images/Finite-conjugate-imaging-index-2024-04-15-18-10-00.png#small)
 
 #### Infinite imaging microscope
 
@@ -121,7 +121,7 @@ Object/specimen is placed exactly at the focal plane of the objective lens. So, 
 
 So a tube lens is needed to take these parallel light and refocuses it to create an image on the other side.
 
-![Infinite-conjugate-imaging](Infinite-conjugate-imaging.png#small)
+![Infinite-conjugate-imaging-index-2024-04-15-19-21-19](https://lfs.zhenhuang.site/images/Infinite-conjugate-imaging-index-2024-04-15-19-21-19.png#small)
 
 Magnification: $M = \frac{f_1}{f_0}$
 
@@ -136,11 +136,11 @@ So the advantages are:
 
 Based on the infinite conjugate imaging system, the imaging system with eyepiece looks like:
 
-![Compound-Microscope-with-Eyepiece](Compound-Microscope-with-Eyepiece.png#small)
+![Compound-Microscope-with-Eyepiece-index-2024-04-15-19-24-36](https://lfs.zhenhuang.site/images/Compound-Microscope-with-Eyepiece-index-2024-04-15-19-24-36.png#small)
 
 When with camera:
 
-![Compound-Microscope-with-Camera](Compound-Microscope-with-Camera.png#small)
+![Compound-Microscope-with-Camera-index-2024-04-15-19-59-45](https://lfs.zhenhuang.site/images/Compound-Microscope-with-Camera-index-2024-04-15-19-59-45.png#small)
 
 ## Illuminating the Specimen
 
@@ -158,7 +158,7 @@ For Köhler illumination:
 * Light source can produce a parallel beam of light;
 * We can get uniform light intensity at the sample even if the light source is ugly and nonuniform.
 
-![Kohler-illumination](Kohler-illumination.png#small)
+![Kohler-illumination-index-2024-04-15-20-05-33](https://lfs.zhenhuang.site/images/Kohler-illumination-index-2024-04-15-20-05-33.png#small)
 
 <span class="caption">Left: Image-forming; Right: Illumination</span>
 
@@ -169,7 +169,7 @@ But for critical illumination:
 
 In Köhler Illumination, we can see the back focal plane with a "Bertrand lens" or a telescope eye piece.
 
-![Bertrand-lens](Bertrand-lens.png#small)
+![Bertrand-lens-index-2024-04-15-22-06-32](https://lfs.zhenhuang.site/images/Bertrand-lens-index-2024-04-15-22-06-32.png#small)
 
 ## Reference
 

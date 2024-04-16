@@ -59,7 +59,7 @@ So for 1D sine wave, $A$, $f$ (or $\lambda$), and $\varphi$ are the three crucia
 
 The fourier transform is a decomposition process: **Any periodic function can be decomposed into a series of sine and cosine functions with different amplitudes, frequencies and phases**.
 
-![Fourier_transform_time_and_frequency_domains_(small)](Fourier_transform_time_and_frequency_domains_(small).gif#small)
+![Fourier_transform_time_and_frequency_domains_(small)-index-2024-04-16-10-44-58](https://lfs.zhenhuang.site/images/Fourier_transform_time_and_frequency_domains_(small)-index-2024-04-16-10-44-58.gif#small)
 <span class="caption">A visualization of the relationship between the time domain and the frequency domain of a function, based on its Fourier transform. From Wikipedia.</span>
 
 Mathematically,
@@ -74,7 +74,7 @@ where $A_{m}$ and $B_{m}$ are the amplitudes of the cosine and sine functions, r
 
 More sinusoid functions with higher frequencies will destribe the function better. The highest frequency in the decomposition will be refered to as the **Nyquist frequency**.
 
-![Example_of_Fourier_Convergence](Example_of_Fourier_Convergence.gif#small)
+![Example_of_Fourier_Convergence-index-2024-04-16-10-38-35](https://lfs.zhenhuang.site/images/Example_of_Fourier_Convergence-index-2024-04-16-10-38-35.gif#small)
 <span class="caption">Example of convergence to a somewhat arbitrary function. From Wikipedia.</span>
 
 And **the fourier transform can be fully converted**:
@@ -85,7 +85,7 @@ $$
 
 Fourier transform allows representing any periodic function as a linear combination of sinusoids. The new variables it uses will be: **amplitudes**, **frequencies**, and **phases**.
 
-![two-domain](two-domain.png)
+![two-domain-index-2024-04-16-10-38-54](https://lfs.zhenhuang.site/images/two-domain-index-2024-04-16-10-38-54.png#small)
 
 {{<notice tip>}}
 
@@ -98,7 +98,7 @@ Fourier transform allows representing any periodic function as a linear combinat
 
 ## Fourier transform and the lens
 
-![objective-lens-performs-fourier-transform](objective-lens-performs-fourier-transform.png)
+![objective-lens-performs-fourier-transform-index-2024-04-16-10-44-19](https://lfs.zhenhuang.site/images/objective-lens-performs-fourier-transform-index-2024-04-16-10-44-19.png)
 
 $$
 \begin{equation}
@@ -204,25 +204,25 @@ The above is a simple derivation of the Abbe limit.
 * Any images consist of pixels
 * Pixels are represented by coordinates and intensity values.
 
-![dimensionality](dimensionality.png#small)
+![dimensionality-index-2024-04-16-10-16-39](https://lfs.zhenhuang.site/images/dimensionality-index-2024-04-16-10-16-39.png#small)
 
-![image-in-real-space](image-in-real-space.png)
+![image-in-real-space-index-2024-04-16-10-45-58](https://lfs.zhenhuang.site/images/image-in-real-space-index-2024-04-16-10-45-58.png#small)
 
 We can also represent images by the **linear combination of other images**. These images are called base images (base vectors). So an image can be represented by the sum of these base images with certain coefficients.
 
-![linear-combination-of-base-vectors](linear-combination-of-base-vectors.png)
+![linear-combination-of-base-vectors-index-2024-04-16-10-17-00](https://lfs.zhenhuang.site/images/linear-combination-of-base-vectors-index-2024-04-16-10-17-00.png#small)
 
 ### Fourier decomposition of 2D images
 
 The Fourier transform of some real-space base images:
 
-![Fourier-transform-of-2D-images](Fourier-transform-of-2D-images.png)
+![Fourier-transform-of-2D-images-index-2024-04-16-10-17-25](https://lfs.zhenhuang.site/images/Fourier-transform-of-2D-images-index-2024-04-16-10-17-25.png#small)
 
 <span class="caption">Here the size of the dots is increased for better visualization.</span>
 
 When we decompose a $8 \times 8$ real-space image, we can get 64 basis images, which correspond to **amplitudes and phases of each frequency component**.
 
-![fourier-decomposition-in-2D](fourier-decomposition-in-2D.png)
+![fourier-decomposition-in-2D-index-2024-04-16-10-35-04](https://lfs.zhenhuang.site/images/fourier-decomposition-in-2D-index-2024-04-16-10-35-04.png#small)
 
 {{<notice info>}}
 Each 2D image can be decomposed in Fourier space by these basis vectors (like sinusoids in 1D-case).
@@ -230,7 +230,7 @@ Each 2D image can be decomposed in Fourier space by these basis vectors (like si
 
 ### Fourier transform in 2D images
 
-![amplitude-phase-spectrum](amplitude-phase-spectrum.png)
+![amplitude-phase-spectrum-index-2024-04-16-10-35-35](https://lfs.zhenhuang.site/images/amplitude-phase-spectrum-index-2024-04-16-10-35-35.png#small)
 
 When we perform the Fourier transform of an image, we can get the **amplitude** and **phase spectrum** at the same time.
 
@@ -248,11 +248,11 @@ When we perform the Fourier transform of an image, we can get the **amplitude** 
 
 Fourier Transform can be generalized further into 3D or ND spaces. Like the examples in 1D and 2D, the 3D fourier transform is also a decomposition process, which can be represented by **the sum of multiple 3D base waves in volume**.
 
-![the-sum-of-multiple-3D-base-waves](the-sum-of-multiple-3D-base-waves.png#small)
+![the-sum-of-multiple-3D-base-waves-index-2024-04-16-10-37-06](https://lfs.zhenhuang.site/images/the-sum-of-multiple-3D-base-waves-index-2024-04-16-10-37-06.png#small)
 
 <span class="caption">Multiple 3D base waves in volume</span>
 
-![3D-Fourier-transform](3D-Fourier-transform.png)
+![3D-Fourier-transform-index-2024-04-16-10-37-25](https://lfs.zhenhuang.site/images/3D-Fourier-transform-index-2024-04-16-10-37-25.png#small)
 
 <span class="caption">3D Fourier transform</span>
 
@@ -260,7 +260,7 @@ Fourier Transform can be generalized further into 3D or ND spaces. Like the exam
 
 The 2D fourier transform of the projection of a 3D object is equal to the central slice of the 3D fourier transform of the object.
 
-![Central-slice-theorem](Central-slice-theorem.png#small)
+![Central-slice-theorem-index-2024-04-16-10-37-56](https://lfs.zhenhuang.site/images/Central-slice-theorem-index-2024-04-16-10-37-56.png#small)
 
 {{</notice>}}
 

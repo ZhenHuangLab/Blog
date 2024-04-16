@@ -24,7 +24,7 @@ I love astrophotography—it's my top hobby. In my spare time, I learn and pract
 
 Click on an image to see it at higher resolution.
 
-![IC1848 – The Soul Nebula](../assets/images/astrogallery/IC1848.png#small)
+![IC1848](https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png#small)
 
 * **Imaging Telescopes Or Lenses**: SkyRover 102 apo pro, 1XFlatter
 * **Imaging Cameras**: QHY695A, ASI6200MM Pro
@@ -38,7 +38,7 @@ Click on an image to see it at higher resolution.
 * **Frames**: 10\*5minQ+122\*5minA($H\_{\alpha}$), 29\*5mQ+129\*5mA($O\_{III}$), 10\*5mQ+112\*5mA($S\_{II}$)
 * **Integration**: 34.3hour
 
-![NGC2264 – Christmas Tree Cluster](../assets/images/astrogallery/NGC2264.png#small)
+![NGC2264](https://lfs.zhenhuang.site/images/NGC2264-2024-04-16-11-18-26.png#small)
 
 * **Imaging Telescopes Or Lenses**: SkyRover 102 apo pro, 1XFlatter
 * **Imaging Cameras**: ASI6200MM Pro
@@ -52,7 +52,7 @@ Click on an image to see it at higher resolution.
 * **Frames**: 95\*5min($H\_{\alpha}$), 65\*5min($S\_{II}$), 75\*5min($O\_{III}$)
 * **Integration**: 19.6hour
 
-![Total Lunar Eclipse 11/08/2022](../assets/images/astrogallery/TotalLunarEclipse.png#small)
+![TotalLunarEclipse](https://lfs.zhenhuang.site/images/TotalLunarEclipse-2024-04-16-11-18-02.png#small)
 
 * **Imaging Telescopes Or Lenses**: SkyRover 102 apo pro, 1XFlatter
 * **Imaging Cameras**: Nikon D750
@@ -62,7 +62,7 @@ Click on an image to see it at higher resolution.
 * **Dates**: 11/08/2022
 * **Frames**: several HDR frames
 
-![NGC6992 – The Eastern Veil Nebula](../assets/images/astrogallery/NGC6992.png#small)
+![NGC6992 – The Eastern Veil Nebula](https://lfs.zhenhuang.site/images/NGC6992%20%E2%80%93%20The%20Eastern%20Veil%20Nebula-index-2024-04-15-17-31-24.png#small)
 
 * **Imaging Telescopes Or Lenses**: SkyRover 102 apo pro, 1XFlatter
 * **Imaging Cameras**: Nikon D5100(Cool)
@@ -76,7 +76,7 @@ Click on an image to see it at higher resolution.
 * **Frames**: LIGHT(300s\*6+200s\*40+180s\*100), FLAT(3s\*70), DARK(180s\*54), BIAS(0s\*100)
 * **Integration**: 7.7hour
 
-![M81 M82 NGC3077](../assets/images/astrogallery/M81_M82_NGC3077.png#small)
+![M81_M82_NGC3077](https://lfs.zhenhuang.site/images/M81_M82_NGC3077-2024-04-16-11-19-18.png#small)
 
 * **Imaging Telescopes Or Lenses**: SkyRover 102 apo pro, 1XFlatter
 * **Imaging Cameras**: Nikon D5100(Cool)
@@ -89,4 +89,3 @@ Click on an image to see it at higher resolution.
 * **Dates**: 04/03/2022
 * **Frames**: LIGHT(180s\*68)
 * **Integration**: 3.4hour
-

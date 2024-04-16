@@ -16,7 +16,7 @@ disable_comments: false
 math: true
 ---
 
-![コネクト](links-banner.png#small)
+![コネクト](https://lfs.zhenhuang.site/images/links-banner-2024-04-16-11-14-50.png#small)
 <span class="caption">コネクト</span>
 
 {{<notice info>}}
