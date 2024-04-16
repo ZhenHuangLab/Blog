@@ -668,13 +668,13 @@ body {
   width: 1px; }
 
 .section {
-  padding: 50px 0; }
+  padding: 30px 0; }
 
 .main-nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 15px 0;
+  padding: 20px 0;
   row-gap: 20px;
   position: relative;
   top: 0px !important; }
@@ -685,7 +685,7 @@ body {
       flex-direction: row;
       /* Horizontal nav on desktop */
       align-items: center;
-      padding: 0; }
+      padding: 10px 0; }
       .main-nav .nav-toggle {
         display: none;
         /* Hide nav toggle on desktop */ } }
@@ -725,10 +725,13 @@ body {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    padding: 1.4rem 1rem; }
+    padding: 1rem 1rem; }
     .menu .menu-link:hover {
       background-color: var(--color-primary);
-      color: var(--color-contrast-lower); }
+      color: var(--color-contrast-lower);
+      border-radius: 10px;
+      /* 平滑扩展 */
+      transition: all 0.3s ease-in-out; }
   .menu .drop-icon {
     margin-left: 10px; }
   @media (min-width: 900px) {
@@ -742,7 +745,8 @@ body {
           background-color: var(--color-contrast-lower);
           padding-left: 0;
           display: block;
-          z-index: 1; } }
+          z-index: 1;
+          border-radius: 10px; } }
 .sub-menu {
   display: none; }
   .sub-menu--active {
@@ -804,7 +808,7 @@ body {
   padding: 3px 0;
   padding: var(--switch-padding) 0;
   position: absolute;
-  top: 20px;
+  top: 22px;
   right: 20px; }
   @media (min-width: 900px) {
     .switch {
