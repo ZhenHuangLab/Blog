@@ -8,9 +8,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 90vh;
-    overflow-y: scroll;
-  }
+    height: 60vh;
+    adding-inline: 1rem;
+  };
 }
 
 .toc-header, .toc-drop-icon {
@@ -21,11 +21,13 @@
 }
 
 .toc-contents {
-  display: none;
+  display: block;
+  overflow-y: auto;
+  padding-inline: 0.5rem;
+  line-height: calc(12px + 2ex)!important ;
   @include font-size('sm');
-
   &--active {      
-    display: block;
+    display: none;
   }
 
   @include respond-to('x-large') {
@@ -57,12 +59,12 @@
   margin-left: 0; /* 重置默认的外边距 */
 }
 
-/* 为所有的li定义通用样式 */
-.toc li {
-  margin-bottom: 0.5rem; /* 为每项添加一些底部空间 */
-}
+// /* 为所有的li定义通用样式 */
+// .toc li {
+//   margin-bottom: 0.5rem; /* 为每项添加一些底部空间 */
+// }
 
 /* 为二级目录项添加适当的缩进 */
 .toc li ul li {
-  padding-left: 1rem; /* 或者使用适当的值调整缩进 */
+  padding-left: 1.2rem; /* 或者使用适当的值调整缩进 */
 }

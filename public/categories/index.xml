@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Apr 2024 18:48:13 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Test</title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Tue, 16 Apr 2024 16:12:43 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>关于细菌性导sexduction的一些讨论</title>
       <link>http://localhost:1313/posts/prokaryotic-sexduction/</link>
       <pubDate>Fri, 05 Apr 2024 15:24:10 +0800</pubDate>

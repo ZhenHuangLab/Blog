@@ -125,22 +125,27 @@ kbd {
 /* 公告栏设置 */
 
 .announcement-bar {
-    background-color: var(--color-primary); /* 使用变量 */
+    background-color: var(--color-primary);
     color: white; 
-    padding: 10px 20px; /* 增加右边距以适应关闭按钮 */
+    padding: 10px 20px;
     position: relative;
     top: 0;
-    left: 0; /* 确保铺满 */
-    right: 0; /* 确保铺满 */
+    left: 0;
+    right: 0;
     display: flex; /* 使用 flex 布局 */
     justify-content: space-between; /* 两端对齐 */
-    align-items: center; /* 垂直居中 */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 轻微的阴影 */
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
     z-index: 1000;
+    /* 边框圆角 */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   
 .announcement-content {
-    text-align: center; /* 居中公告文本 */
+    text-align: center;
     font-size: medium;
 }
   
