@@ -150,4 +150,47 @@ document.addEventListener('DOMContentLoaded', function () {
     // 页面加载时根据公告栏的显示状态调整布局
     adjustPageLayout();
   });
-  
+
+//   document.addEventListener('DOMContentLoaded', function () {
+//     const backToTop = document.querySelector('.back-to-top');
+
+//     window.addEventListener('scroll', () => {
+//         const contentHeight = document.body.scrollHeight - window.innerHeight;
+//         const scrollPercent = contentHeight > 0 ? Math.min(100 * window.scrollY / contentHeight, 100) : 0;
+
+//         if (backToTop) {
+//             backToTop.classList.toggle('back-to-top-on', Math.round(scrollPercent) >= 5);
+//             backToTop.querySelector('span').innerText = Math.round(scrollPercent) + '%';
+//         }
+//     });
+
+//     backToTop && backToTop.addEventListener('click', () => {
+//         window.scrollTo({
+//             top: 0,
+//             behavior: 'smooth'
+//         });
+//     });
+// });
+document.addEventListener('DOMContentLoaded', function () {
+  const backToTop = document.querySelector('.back-to-top');
+  const circle = document.querySelector('.circle');
+
+  window.addEventListener('scroll', () => {
+      const contentHeight = document.body.scrollHeight - window.innerHeight;
+      const scrollPercent = contentHeight > 0 ? Math.min(100 * window.scrollY / contentHeight, 100) : 0;
+
+      if (backToTop) {
+          backToTop.style.opacity = scrollPercent > 5 ? 1 : 0;
+          const circumference = Math.PI * (15.9155 * 2);
+          const strokeLength = (circumference * scrollPercent) / 100;
+          circle.style.strokeDasharray = `${strokeLength} ${circumference - strokeLength}`;
+      }
+  });
+
+  backToTop.addEventListener('click', () => {
+      window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+      });
+  });
+});
