@@ -6,7 +6,16 @@
     <description>Recent content in 👋 Hi, I am Zhen! on Zhen&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Apr 2024 16:45:46 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Apr 2024 23:50:12 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>将自己的Notion页面部署至Vercel并配置自定义域名</title>
+      <link>http://localhost:1313/posts/deploy-notion-to-vercel-by-nextjs/</link>
+      <pubDate>Fri, 26 Apr 2024 23:50:12 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/deploy-notion-to-vercel-by-nextjs/</guid>
+      <description>记录自己如何将自己的Notion页面以最简单的方式部署至Vercel并配置自定义域名，获得巨大DIY空间并便于搜索引擎收录。</description>
+    </item>
+    
     <item>
       <title>真核生物基因的转录水平调控</title>
       <link>http://localhost:1313/posts/regulation-of-gene-expression-in-eukaryotes/</link>
