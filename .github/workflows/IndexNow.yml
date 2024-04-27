@@ -1,0 +1,24 @@
+name: 'IndexNow'
+on:
+  push:
+    branches:
+        # when git push to the master branch
+        - main
+  schedule:
+    # Set the schedule time
+    - cron: '0 0,12 * * *'
+    # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  check-and-submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: indexnow-action
+        uses: bojieyang/indexnow-action@v2
+        with:
+          sitemap-location: 'https://blog.zhenhuang.site/sitemap.xml'
+          since: 1
+          since-unit: "month"
+          key: ${{ secrets.INDEXNOW_KEY }}
+          
