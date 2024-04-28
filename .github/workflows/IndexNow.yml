@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: indexnow-action
-        uses: bojieyang/indexnow-action@v2
+        uses: bojieyang/indexnow-action@v1
         with:
           sitemap-location: 'https://blog.zhenhuang.site/sitemap.xml'
           since: 1
