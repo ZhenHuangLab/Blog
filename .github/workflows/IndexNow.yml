@@ -2,7 +2,6 @@ name: 'IndexNow'
 on:
   push:
     branches:
-        # when git push to the master branch
         - main
   schedule:
     # Set the schedule time
@@ -15,9 +14,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: indexnow-action
-        uses: bojieyang/indexnow-action@v1
+        uses: bojieyang/indexnow-action@v2
         with:
-          sitemap-location: 'https://blog.zhenhuang.site/sitemap.xml'
+          sitemap-location: "https://blog.zhenhuang.site/sitemap.xml"
+          endpoint: "www.bing.com"
           since: 1
           since-unit: "month"
           key: ${{ secrets.INDEXNOW_KEY }}
