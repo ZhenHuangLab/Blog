@@ -21,4 +21,5 @@ jobs:
           since: 1
           since-unit: "month"
           key: ${{ secrets.INDEXNOW_KEY }}
+          key-location: ${{ secrets.INDEXNOW_KEY_LOCATION }}
           
