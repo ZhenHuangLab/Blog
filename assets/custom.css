@@ -28,6 +28,7 @@
     display: block;
     margin: 0 auto;
     width: 60%;
+    cursor: zoom-in;
 }
 
 /* 添加图片说明，只要<span class="caption">输入你想加的文字</span>即可 */
