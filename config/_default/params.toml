@@ -37,11 +37,11 @@ images = ['images/default.jpg'] # Fallback for Open Graph and Twitter Cards imag
 ogLocale = "en_US" # Open graph locale
 
 # Twitter Cards
-twitterSite = "johndoestwitter" # Enter your twitter handle without the @
-twitterCreator = "johndoestwitter" # Enter your twitter handle without the @
+twitterSite = "ZhenVictorHuang" # Enter your twitter handle without the @
+twitterCreator = "ZhenVictorHuang" # Enter your twitter handle without the @
 
 # JSON-LD structured data schemas
-schemaName = "John Doe" # Enter your name
+schemaName = "Zhen Huang" # Enter your name
 schemaLocale = "en-US" # Structured data locale
 schemaImage = "images/default.png" # Image for Person structured data schema. Enter path to the image.
 schemaImageWidth = 453 # Width of the above image

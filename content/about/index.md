@@ -10,9 +10,10 @@ description: Learn more about my background and experience.
 
 ## Profile
 
-![Static Badge](https://img.shields.io/badge/BIO-ASTRO-blue) ![Static Badge](https://img.shields.io/badge/cryo-EM-orange)  [![wakatime](https://wakatime.com/badge/user/018b6591-20df-4e17-9e3a-30529d0b82ca.svg)](https://wakatime.com/@018b6591-20df-4e17-9e3a-30529d0b82ca) ![Static Badge](https://img.shields.io/badge/last_modified-10/25/2023-red)
+![Static Badge](https://img.shields.io/badge/BIO-ASTRO-blue) ![Static Badge](https://img.shields.io/badge/cryo-EM-orange)  [![wakatime](https://wakatime.com/badge/user/018b6591-20df-4e17-9e3a-30529d0b82ca.svg)](https://wakatime.com/@018b6591-20df-4e17-9e3a-30529d0b82ca) ![Static Badge](https://img.shields.io/badge/last_modified-09/02/2024-red)
 
-* Senior in Zhejiang University now, visiting student at MB&B, Yale Med School(Jul-Oct 2023)
+* PhD student at Tsinghua University now
+* B.S. at Zhejiang University, visiting student at MB&B, Yale Med School(Jul-Oct 2023)
 * Currently working on [cryo-EM(Biophysics & Biochemistry)](../research/)
 * Love Biology & Astronomy
 * DIY!
