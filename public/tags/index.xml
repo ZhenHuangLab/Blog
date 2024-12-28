@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Zhen&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Apr 2024 23:50:12 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Dec 2024 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>M1解锁Apple Intelligence &amp; 简单测试</title>
+      <link>http://localhost:1313/posts/apple-intelligence-beta-test-with-m1/</link>
+      <pubDate>Sat, 28 Dec 2024 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/apple-intelligence-beta-test-with-m1/</guid>
+      <description>本文分享了如何在M1 Mac上解锁Apple Intelligence的具体步骤和注意事项，作者详细描述了安装过程中的准备工作、遇到的问题以及解决方案，并进行了简单的功能测试，认为Apple Intelligence在协助处理琐碎数据方面有优势，但目前对国区用户用处不大。</description>
+    </item>
+    
     <item>
       <title>将自己的Notion页面部署至Vercel并配置自定义域名</title>
       <link>http://localhost:1313/posts/deploy-notion-to-vercel-by-nextjs/</link>
