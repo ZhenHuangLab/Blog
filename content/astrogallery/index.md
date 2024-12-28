@@ -16,13 +16,21 @@ disable_comments: false
 math: true
 ---
 
-{{<notice note>}}
-Astrophotography is not only time-consuming and expensive, but it also requires both physical and mental effort. In 2023, due to my studies and research, I often didn't have the time to seriously take and process images. However, I'm sure there will be opportunities to update in the future!
-{{</notice>}}
-
 I love astrophotography—it's my top hobby. In my spare time, I learn and practice how to capture and process deep sky images. **These photos make me feel the wonder of the universe and how small yet amazing we are as humans.** Below is a selection of images taken by me.
 
-Click on an image to see it at higher resolution.
+![IC1805&1848](https://lfs.zhenhuang.site/images/Heart&Soul.jpg)
+
+* **Imaging Telescopes Or Lenses**: SpaceCat 51 III
+* **Imaging Cameras**: ASI6200MM Pro
+* **Mounts**: GEM28ec & Ragdoll 20
+* **Filters**: Optolong SHO 3nm
+* **Guiding Telescopes Or Lenses**: Askar 32mm F/4
+* **Guiding Cameras**: ASI 290MM mini
+* **Accessories**: ASIAir Plus
+* **Software**: Pixinsight
+* **Dates**: 11/2024 - 12/2024
+* **Frames**: 250 $\times$ 300s 20.8h ($H\_{\alpha}$), 236 $\times$ 300s 19.7h ($O\_{III}$), 183 $\times$ 300s 15.25h ($S\_{II}$)
+* **Integration**: 55.75h
 
 ![IC1848](https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png#small)
 
