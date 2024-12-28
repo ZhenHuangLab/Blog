@@ -1,8 +1,8 @@
 ---
 title: M1解锁Apple Intelligence & 简单测试
 seo_title: M1解锁Apple Intelligence & 简单测试 | Zhen's BLOG
-summary: 本文分享了如何在M1 Mac上解锁Apple Intelligence的具体步骤和注意事项，作者详细描述了安装过程中的准备工作、遇到的问题以及解决方案，并进行了简单的功能测试，认为Apple Intelligence在协助处理琐碎数据方面有优势，但目前对国区用户用处不大。
-description: 介绍如何在M1 Mac上解锁Apple Intelligence Beta版的步骤，包括系统配置、安装过程及遇到的问题和解决方法，并进行简单测试。
+summary: 介绍如何在M1 Mac上解锁Apple Intelligence Beta版的步骤，包括系统配置、安装过程及遇到的问题和解决方法，并对Apple Intelligence Beta版进行简单测试。
+description: 介绍如何在M1 Mac上解锁Apple Intelligence Beta版的步骤，包括系统配置、安装过程及遇到的问题和解决方法，并对Apple Intelligence Beta版进行简单测试。
 slug: apple-intelligence-beta-test-with-m1
 author: Zhen Huang
 
