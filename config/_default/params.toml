@@ -17,7 +17,7 @@ label_drafts = false # Add a label indicator next to the title of any built draf
 
 ### Set announcement bar
 AnnouncementBar = true
-AnnouncementBarText = '''本站已重新从Wordpress迁移至Hugo，并采用子域名，原zhenhuang.site改为landing page。'''
+AnnouncementBarText = '''本站目前静态部署在Github，若图片或公式加载慢，请尝试刷新或魔法。'''
 
 # Customize newsletter text
 newsletter_header = "This is my custom newsletter header with a captivating title."
