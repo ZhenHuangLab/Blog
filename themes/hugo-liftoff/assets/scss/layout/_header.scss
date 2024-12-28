@@ -82,19 +82,21 @@
     text-decoration: none;
     cursor: pointer;
     padding: 1rem 1rem;
+    justify-content: center;
+    align-items: center;
 
     &:hover {
       background-color: var(--color-primary);
       color: var(--color-contrast-lower);
       border-radius: 10px;
-      /* 平滑扩展 */
       transition: all 0.3s ease-in-out;
-
     }
   }
 
   .drop-icon {
     margin-left: 10px;
+    display: flex;
+    align-items: center;
   }
 
   @include respond-to('m-large') {

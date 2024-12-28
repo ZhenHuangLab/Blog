@@ -725,15 +725,18 @@ body {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    padding: 1rem 1rem; }
+    padding: 1rem 1rem;
+    justify-content: center;
+    align-items: center; }
     .menu .menu-link:hover {
       background-color: var(--color-primary);
       color: var(--color-contrast-lower);
       border-radius: 10px;
-      /* 平滑扩展 */
       transition: all 0.3s ease-in-out; }
   .menu .drop-icon {
-    margin-left: 10px; }
+    margin-left: 10px;
+    display: flex;
+    align-items: center; }
   @media (min-width: 900px) {
     .menu {
       display: flex;
