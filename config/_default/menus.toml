@@ -1,22 +1,22 @@
 [[main]]
     # Top-level menu entry
-    identifier = "biosci"
-    name = "Biosci"
-    url = "/biosci/"
+    identifier = "science"
+    name = "Sci"
+    url = "/science/"
     weight = 1
 
 [[main]]
     identifier = "classnotes"
     name = "ClassNotes"
     url = "/classnotes/"
-    parent = "biosci"
+    parent = "science"
     weight = 2
 
 [[main]]
     identifier = "research"
     name = "Research"
     url = "/research/"
-    parent = "biosci"
+    parent = "science"
     weight = 2
 
 [[main]]

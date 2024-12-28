@@ -17,9 +17,9 @@ disable_comments: false
 
 ![classnotes-banner-2024-04-16-11-15-55](https://lfs.zhenhuang.site/images/classnotes-banner-2024-04-16-11-15-55.jpeg#small)
 
-## Class Notes in ZJU 课堂笔记
+## Class Notes 课堂笔记
 
-There are some [class notes](https://zhenh.notion.site/f21d69aaa7214868b465490a9bc6eee2?v=052dafd18fdb46ba8e5cc04bee0b99e6&pvs=4) written by me in ZJU. You can check out them!
+There are some [class notes](https://zhenh.notion.site/f21d69aaa7214868b465490a9bc6eee2?v=052dafd18fdb46ba8e5cc04bee0b99e6&pvs=4). You can check out them!
 
 ## 校内课程回忆卷/历年卷
 
