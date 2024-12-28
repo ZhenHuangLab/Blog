@@ -20,25 +20,25 @@ document.addEventListener('DOMContentLoaded', function () {
   const singleContainerPost = document.querySelector('.single-container-post');
   let isTocVisible = false;
   
-  menuButton.addEventListener('click', function () {
-    isTocVisible = !isTocVisible;
-    toc.style.display = isTocVisible ? 'block' : 'none';
-    if (isTocVisible) {
-      singleContainerPost.classList.add('grid-layout');
-    } else {
-      singleContainerPost.classList.remove('grid-layout');
-    }
-  });
+  if (menuButton) {
+    menuButton.addEventListener('click', function () {
+      isTocVisible = !isTocVisible;
+      toc.style.display = isTocVisible ? 'block' : 'none';
+      if (isTocVisible) {
+        singleContainerPost.classList.add('grid-layout');
+      } else {
+        singleContainerPost.classList.remove('grid-layout');
+      }
+    });
+  }
 
   window.addEventListener('scroll', () => {
-      const contentHeight = document.body.scrollHeight - window.innerHeight;
-      const scrollPercent = contentHeight > 0 ? Math.min(100 * window.scrollY / contentHeight, 100) : 0;
+    const contentHeight = document.body.scrollHeight - window.innerHeight;
+    const scrollPercent = contentHeight > 0 ? Math.min(100 * window.scrollY / contentHeight, 100) : 0;
 
-      if (backToTop) {
-          backToTop.style.opacity = scrollPercent > 5 ? 1 : 0;
-          menuButton.style.display = 'flex';
-          menuButton.style.opacity = scrollPercent > 5 ? 1 : 0;
-      }
+    if (backToTop) {
+      backToTop.style.opacity = scrollPercent > 3 ? 1 : 0;
+    }
   });
 
   backToTop.addEventListener('click', () => {
