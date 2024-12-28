@@ -10,7 +10,7 @@ favicon = true # Enable favicon, add your favicon files to /static/ directory
 # avatar = 'avatar.png' # Custom avatar image in /assets/
 grayscale_avatar = false # Add a grayscale filter to the avatar image
 author = 'Zhen Huang' # Default author for <head> meta
-description = "Personal blog and portfolio site of Zhen Huang." # Add a global meta description to <head>
+description = "Personal blog and portfolio site of Zhen Huang 黄振的个人博客" # Add a global meta description to <head>
 footer_text = "Built with [Hugo](https://gohugo.io/) & [Liftoff](https://github.com/wjh18/hugo-liftoff) modified by [Zhen Huang](https://github.com/ZhenHuangLab)." # Customize footer text
 fallback_text = "No content available yet. Coming soon. 目前没有内容。" # Fallback text for empty content
 label_drafts = false # Add a label indicator next to the title of any built drafts (dev only)
@@ -33,7 +33,7 @@ enableimgloop = true # Enable image loop in post
 
 ### Web schemas
 # Open Graph
-images = ['images/default.jpg'] # Fallback for Open Graph and Twitter Cards images if none are present in front matter. Enter path to the image.
+images = ['images/meta.jpg'] # Fallback for Open Graph and Twitter Cards images if none are present in front matter. Enter path to the image.
 ogLocale = "en_US" # Open graph locale
 
 # Twitter Cards
