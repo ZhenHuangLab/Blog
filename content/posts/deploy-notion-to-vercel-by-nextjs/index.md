@@ -61,7 +61,7 @@ math: true
 
 比如我打算分享的根页面链接为`https://zhenh.notion.site/ZJU-f21d69aaa7214868b465490a9bc6eee2?pvs=4`或者`https://www.notion.so/ZJU-f21d69aaa7214868b465490a9bc6eee2?pvs=21`，那么我的页面ID为`f21d69aaa7214868b465490a9bc6eee2`。
 
-![页面ID获取-2024-04-27-00-05-35](https://lfs.zhenhuang.site/images/页面ID获取-2024-04-27-00-05-35.png#small)
+![页面ID获取-2024-04-27-00-05-35](https://lfs.zhenhuang.top/images/页面ID获取-2024-04-27-00-05-35.png#small)
 
 ## 3 在Github上获取脚本代码
 
@@ -75,7 +75,7 @@ math: true
 
 获得需要的脚本代码后，只需要进入`lib/config.ts`中，把`rootNotionPageId`修改成刚刚获取的**根页面ID**即可。`SpaceId`可填可不填，如果你的Notion加入了Space的话是需要填的（不过我也没试过，因为我就是打算免费白嫖的，怎么可能给Notion充钱（乐））。
 
-![填入PageId-2024-04-27-00-10-35](https://lfs.zhenhuang.site/images/填入PageId-2024-04-27-00-10-35.png#small)
+![填入PageId-2024-04-27-00-10-35](https://lfs.zhenhuang.top/images/填入PageId-2024-04-27-00-10-35.png#small)
 
 然后一切就大功告成了，就是这么简单。接下来是一些选做的配置。
 
@@ -83,7 +83,7 @@ math: true
 
 如图，在`components/NotionPage`中，修改`socialDescription`以及`socialImage`可以自定义网站描述和图片。
 
-![自定义网站描述和图片-2024-04-27-00-14-06](https://lfs.zhenhuang.site/images/自定义网站描述和图片-2024-04-27-00-14-06.png#small)
+![自定义网站描述和图片-2024-04-27-00-14-06](https://lfs.zhenhuang.top/images/自定义网站描述和图片-2024-04-27-00-14-06.png#small)
 
 ### 4.3 (选做)配置Giscus评论区
 
@@ -91,9 +91,9 @@ math: true
 
 如图，我在`NotionPage.tsx`中加入了一个`giscus`的元素，然后加入[Giscus官网](https://giscus.app/)生成的脚本代码，选择`notion-page`及`notion-full-page`属性即可。这样就可以非常简单地在自己部署的Notion页面中添加评论区了。也可以选择直接Fork[我的项目](https://github.com/ZhenHuangLab/notion)，自己在官网获得`Giscus`脚本代码后，将信息填到自定义的部分。
 
-![配置Giscus-1-2024-04-27-00-16-58](https://lfs.zhenhuang.site/images/配置Giscus-1-2024-04-27-00-16-58.png#small)
+![配置Giscus-1-2024-04-27-00-16-58](https://lfs.zhenhuang.top/images/配置Giscus-1-2024-04-27-00-16-58.png#small)
 
-![配置Giscus-2-2024-04-27-00-17-16](https://lfs.zhenhuang.site/images/配置Giscus-2-2024-04-27-00-17-16.png#small)
+![配置Giscus-2-2024-04-27-00-17-16](https://lfs.zhenhuang.top/images/配置Giscus-2-2024-04-27-00-17-16.png#small)
 
 ## 5 安装必要库
 
@@ -165,7 +165,7 @@ git push
 
 3、再在创建页面选择`Import Git Repository`，也就是导入刚刚创建的与`react-notion-x`相关的个人仓库，然后设置框架和命令可以参考我现在写的：
 
-![Import-settings-2024-04-27-00-23-56](https://lfs.zhenhuang.site/images/Import-settings-2024-04-27-00-23-56.png#small)
+![Import-settings-2024-04-27-00-23-56](https://lfs.zhenhuang.top/images/Import-settings-2024-04-27-00-23-56.png#small)
 
 其中`Install Command`是：（当然，我这写得可能啰嗦了点，但是无所谓，能跑就行）
 
@@ -177,18 +177,18 @@ npm install -g yarn && yarn add next react react-dom notion-client notion-compat
 
 4、点击`Deploy`进行自动部署。部署成功后会出现`Congratulations`界面，说明部署完成；点击`Project`可以看到已经成功部署网页了：
 
-![成功部署-2024-04-27-00-25-01](https://lfs.zhenhuang.site/images/成功部署-2024-04-27-00-25-01.png#small)
+![成功部署-2024-04-27-00-25-01](https://lfs.zhenhuang.top/images/成功部署-2024-04-27-00-25-01.png#small)
 
 - 如果出现部署失败的问题（按道理来讲在本地跑通了就没问题），在本地修改排查之后推送到`Github`仓库，然后`Vercel`会进行重新部署。
 - 如果是`Vercel`配置的问题（比如我一开始不熟悉`Vercel`这玩意以及如何正确安装必要库，试错了几次），那么可以修改`Vercel`设置后，在对应失败的`Deployment`中点击重新部署`Redeploy`：
 
-![重新部署-2024-04-27-00-25-34](https://lfs.zhenhuang.site/images/重新部署-2024-04-27-00-25-34.png#small)
+![重新部署-2024-04-27-00-25-34](https://lfs.zhenhuang.top/images/重新部署-2024-04-27-00-25-34.png#small)
 
 ## 8 配置自定义域名
 
 成功部署至`Vercel`后，每一次推送到`Github`的commit，`Github`都会交给`Vercel`进行部署，于是我们得到了能够自定义渲染Notion页面的脚本（只不过在本文中是最朴素的渲染）。
 
-![All-deployments-2024-04-27-00-26-21](https://lfs.zhenhuang.site/images/All-deployments-2024-04-27-00-26-21.png#small)
+![All-deployments-2024-04-27-00-26-21](https://lfs.zhenhuang.top/images/All-deployments-2024-04-27-00-26-21.png#small)
 
 `Vercel`会自动生成一个网址，别人可以用这个域名访问你的Notion页面了，而不是`xxx.notion.site`或者`notion.so/xxx`了。
 
@@ -198,7 +198,7 @@ npm install -g yarn && yarn add next react react-dom notion-client notion-compat
 
 配置结束后，就可以按照搜索引擎给的流程，在`public/`中添加相应的认证文件（比如Bing需要的`BingSiteAuth.html`），来进行所有权认证，使得自己的Notion页面被搜索引擎收录。
 
-![加入BingSiteAuth-2024-04-27-00-27-48](https://lfs.zhenhuang.site/images/加入BingSiteAuth-2024-04-27-00-27-48.png#small)
+![加入BingSiteAuth-2024-04-27-00-27-48](https://lfs.zhenhuang.top/images/加入BingSiteAuth-2024-04-27-00-27-48.png#small)
 
 通过这一通操作，就可以**免费白嫖Notion自定义域名、使搜索引擎收录自己的Notion页面、自定义评论系统，并且给了非常大的DIY空间**。我目前这个还是最简单的方案，是几乎没有进行任何自定义的，而有很多大神已经把Notion玩得贼溜了，直接当博客用了，也非常强大，例子可以参考我之前给的链接[NotionNext](https://github.com/tangly1024/NotionNext)，我看学校也有一些同学用这个做了自己的博客，比如[fufu酱のNoteBook](https://csfufu.life/en)。
 

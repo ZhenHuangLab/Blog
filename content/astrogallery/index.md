@@ -18,7 +18,7 @@ math: true
 
 I love astrophotography—it's my top hobby. In my spare time, I learn and practice how to capture and process deep sky images. **These photos make me feel the wonder of the universe and how small yet amazing we are as humans.** Below is a selection of images taken by me.
 
-![IC1805&1848](https://lfs.zhenhuang.site/images/Heart&Soul.jpg)
+![IC1805&1848](https://lfs.zhenhuang.top/images/Heart&Soul.jpg)
 
 * **Imaging Telescopes Or Lenses**: SpaceCat 51 III
 * **Imaging Cameras**: ASI6200MM Pro
@@ -32,7 +32,7 @@ I love astrophotography—it's my top hobby. In my spare time, I learn and pract
 * **Frames**: 250 $\times$ 300s 20.8h ($H\_{\alpha}$), 236 $\times$ 300s 19.7h ($O\_{III}$), 183 $\times$ 300s 15.25h ($S\_{II}$)
 * **Integration**: 55.75h
 
-![IC1848](https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png#small)
+![IC1848](https://lfs.zhenhuang.top/images/IC1848-2024-04-16-11-18-46.png#small)
 
 * **Imaging Telescopes Or Lenses**: SkyRover 102 apo pro, 1XFlatter
 * **Imaging Cameras**: QHY695A, ASI6200MM Pro
@@ -46,7 +46,7 @@ I love astrophotography—it's my top hobby. In my spare time, I learn and pract
 * **Frames**: 10\*5minQ+122\*5minA($H\_{\alpha}$), 29\*5mQ+129\*5mA($O\_{III}$), 10\*5mQ+112\*5mA($S\_{II}$)
 * **Integration**: 34.3hour
 
-![NGC2264](https://lfs.zhenhuang.site/images/NGC2264-2024-04-16-11-18-26.png#small)
+![NGC2264](https://lfs.zhenhuang.top/images/NGC2264-2024-04-16-11-18-26.png#small)
 
 * **Imaging Telescopes Or Lenses**: SkyRover 102 apo pro, 1XFlatter
 * **Imaging Cameras**: ASI6200MM Pro
@@ -60,7 +60,7 @@ I love astrophotography—it's my top hobby. In my spare time, I learn and pract
 * **Frames**: 95\*5min($H\_{\alpha}$), 65\*5min($S\_{II}$), 75\*5min($O\_{III}$)
 * **Integration**: 19.6hour
 
-![TotalLunarEclipse](https://lfs.zhenhuang.site/images/TotalLunarEclipse-2024-04-16-11-18-02.png#small)
+![TotalLunarEclipse](https://lfs.zhenhuang.top/images/TotalLunarEclipse-2024-04-16-11-18-02.png#small)
 
 * **Imaging Telescopes Or Lenses**: SkyRover 102 apo pro, 1XFlatter
 * **Imaging Cameras**: Nikon D750
@@ -70,7 +70,7 @@ I love astrophotography—it's my top hobby. In my spare time, I learn and pract
 * **Dates**: 11/08/2022
 * **Frames**: several HDR frames
 
-![NGC6992 – The Eastern Veil Nebula](https://lfs.zhenhuang.site/images/NGC6992%20%E2%80%93%20The%20Eastern%20Veil%20Nebula-index-2024-04-15-17-31-24.png#small)
+![NGC6992 – The Eastern Veil Nebula](https://lfs.zhenhuang.top/images/NGC6992%20%E2%80%93%20The%20Eastern%20Veil%20Nebula-index-2024-04-15-17-31-24.png#small)
 
 * **Imaging Telescopes Or Lenses**: SkyRover 102 apo pro, 1XFlatter
 * **Imaging Cameras**: Nikon D5100(Cool)
@@ -84,7 +84,7 @@ I love astrophotography—it's my top hobby. In my spare time, I learn and pract
 * **Frames**: LIGHT(300s\*6+200s\*40+180s\*100), FLAT(3s\*70), DARK(180s\*54), BIAS(0s\*100)
 * **Integration**: 7.7hour
 
-![M81_M82_NGC3077](https://lfs.zhenhuang.site/images/M81_M82_NGC3077-2024-04-16-11-19-18.png#small)
+![M81_M82_NGC3077](https://lfs.zhenhuang.top/images/M81_M82_NGC3077-2024-04-16-11-19-18.png#small)
 
 * **Imaging Telescopes Or Lenses**: SkyRover 102 apo pro, 1XFlatter
 * **Imaging Cameras**: Nikon D5100(Cool)

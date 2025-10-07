@@ -28,7 +28,7 @@ disable_comments: false
 math: true
 ---
 
-![zjucab-expshare-banner-2024-04-16-10-59-04](https://lfs.zhenhuang.site/images/zjucab-expshare-banner-2024-04-16-10-59-04.png#small)
+![zjucab-expshare-banner-2024-04-16-10-59-04](https://lfs.zhenhuang.top/images/zjucab-expshare-banner-2024-04-16-10-59-04.png#small)
 
 周一晚上的时候受到了学院这么隆重的邀请，我心里其实还蛮诚惶诚恐的。主要是自己目前也没有一个着落，只收到了一些面试，所以我觉得我恐怕没有这个资格站在这里给大家分享。但是既然学院给了我这个机会，并且我也记得国奖面试的时候老师也希望能够把自己这段时间的经验分享一下，所以我也欣然答应了。
 

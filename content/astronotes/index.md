@@ -15,7 +15,7 @@ newsletter: false
 disable_comments: false
 ---
 
-![astronotes-banner-2024-04-16-11-16-23](https://lfs.zhenhuang.site/images/astronotes-banner-2024-04-16-11-16-23.jpeg#small)
+![astronotes-banner-2024-04-16-11-16-23](https://lfs.zhenhuang.top/images/astronotes-banner-2024-04-16-11-16-23.jpeg#small)
 
 ## A Few Words Before...
 

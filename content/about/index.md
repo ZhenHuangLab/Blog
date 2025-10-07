@@ -6,7 +6,7 @@ seo_title: About
 description: Learn more about my background and experience.
 ---
 
-![About](https://lfs.zhenhuang.site/images/About-index-2024-04-15-17-13-43.jpg#small)
+![About](https://lfs.zhenhuang.top/images/About-index-2024-04-15-17-13-43.jpg#small)
 
 ## Profile
 

@@ -41,21 +41,21 @@ math: true
 
 比如之前我上微生物学时老师的课件：
 
-![transformation-transduction-conjugation-index-2024-04-16-10-48-28](https://lfs.zhenhuang.site/images/transformation-transduction-conjugation-index-2024-04-16-10-48-28.png#small)
+![transformation-transduction-conjugation-index-2024-04-16-10-48-28](https://lfs.zhenhuang.top/images/transformation-transduction-conjugation-index-2024-04-16-10-48-28.png#small)
 
 以及随便搜到的一些online textbook：
 
-![libretexts-bio-index-2024-04-16-10-48-45](https://lfs.zhenhuang.site/images/libretexts-bio-index-2024-04-16-10-48-45.png#small)
+![libretexts-bio-index-2024-04-16-10-48-45](https://lfs.zhenhuang.top/images/libretexts-bio-index-2024-04-16-10-48-45.png#small)
 
 以至于我在认真搜这个性导概念之前，我以为只是接合的别名罢了。
 
 （2）第二种观点：另一类观点认为**性导不完全等于接合**。在英文维基百科conjugation的讨论区，有人提出sexduction不等于conjugation，认为**性导是由F’质粒参与的水平基因转移过程**。我也是偶然发现的，中文维基百科讨论区没有人提出。
 
-![sexduction-vs-conjugation-index-2024-04-16-10-49-23](https://lfs.zhenhuang.site/images/sexduction-vs-conjugation-index-2024-04-16-10-49-23.png#small)
+![sexduction-vs-conjugation-index-2024-04-16-10-49-23](https://lfs.zhenhuang.top/images/sexduction-vs-conjugation-index-2024-04-16-10-49-23.png#small)
 
 在PubMed搜索sexduction，只能搜索出5篇远古文献，并没有关于这个名词的综述，仅有在文中提及这个词的情况，不过这些文献在提到这个词时说的**都是F’质粒参与的**。比如一篇俄文文献：（当然我也只看了摘要）
 
-![pubmed-sexduction-index-2024-04-16-10-50-10](https://lfs.zhenhuang.site/images/pubmed-sexduction-index-2024-04-16-10-50-10.png#small)
+![pubmed-sexduction-index-2024-04-16-10-50-10](https://lfs.zhenhuang.top/images/pubmed-sexduction-index-2024-04-16-10-50-10.png#small)
 
 因此在收集性导sexduction相关资料时，我主要以第二种观点为主，看看为什么性导不完全等于接合。
 
@@ -98,17 +98,17 @@ F-plasmid分类：[^5]
 
 （1）**Hfr是指F质粒整合至细菌基因组**。与F<sup>-</sup>杂交几乎不能使F<sup>-</sup>变为F<sup>+</sup>，因为F因子总是最后转移。但是Hfr与F<sup>+</sup>本身可以相互转变。
 
-![hfr-index-2024-04-16-10-50-30](https://lfs.zhenhuang.site/images/hfr-index-2024-04-16-10-50-30.png#small)
+![hfr-index-2024-04-16-10-50-30](https://lfs.zhenhuang.top/images/hfr-index-2024-04-16-10-50-30.png#small)
 
 （2）F<sup>+</sup>是指F质粒在细菌基因组外部，独立于基因组存在，且质粒本身不存在细菌基因组自身的DNA。与F<sup>-</sup>杂交几乎都能使F<sup>-</sup>变为F<sup>+</sup>。
 
-![f+-index-2024-04-16-10-50-45](https://lfs.zhenhuang.site/images/f+-index-2024-04-16-10-50-45.png#small)
+![f+-index-2024-04-16-10-50-45](https://lfs.zhenhuang.top/images/f+-index-2024-04-16-10-50-45.png#small)
 
 （3）**F’是指F质粒也在基因组外部，但是质粒上有部分基因组自身的DNA**。是由Hfr形成的。F’ cells are formed from Hfr cell during induction of F-factor from chromosomal DNA in which F-factor carries a portion of chromosomal DNA along with it.
 
-![f-prime-index-2024-04-16-10-51-03](https://lfs.zhenhuang.site/images/f-prime-index-2024-04-16-10-51-03.png#small)
+![f-prime-index-2024-04-16-10-51-03](https://lfs.zhenhuang.top/images/f-prime-index-2024-04-16-10-51-03.png#small)
 
-![f-prime-formation-2024-04-16-10-56-15](https://lfs.zhenhuang.site/images/f-prime-formation-2024-04-16-10-56-15.png#small)
+![f-prime-formation-2024-04-16-10-56-15](https://lfs.zhenhuang.top/images/f-prime-formation-2024-04-16-10-56-15.png#small)
 
 F’的形成：F因子整合进细菌染色体-形成Hfr细菌中间态-裂解形成F’
 
@@ -124,7 +124,7 @@ F’的形成：F因子整合进细菌染色体-形成Hfr细菌中间态-裂解�
 
 F’与F<sup>-</sup>细胞发生的性导过程，结果得到了两个F’[^7]，这两个细菌都具有部分二倍体partially diploid的性质。
 
-![conjugation-between-f'-and-f--2024-04-16-10-56-56](https://lfs.zhenhuang.site/images/conjugation-between-f'-and-f--2024-04-16-10-56-56.png#small)
+![conjugation-between-f'-and-f--2024-04-16-10-56-56](https://lfs.zhenhuang.top/images/conjugation-between-f'-and-f--2024-04-16-10-56-56.png#small)
 
 {{<notice info "部分合子/部分二倍体">}}
 Merozygote部分合子/partially diploid部分二倍体：含有一个亲本全部基因组和另一个亲本部分基因组的合子。
@@ -132,7 +132,7 @@ Merozygote部分合子/partially diploid部分二倍体：含有一个亲本全�
 
 当然，部分二倍体不一定全部都是F’与F<sup>-</sup>接合导致的，<b>Hfr和F<sup>-</sup>接合也可能形成部分二倍体</b>。
 
-![conjugation-between-hfr-f--2024-04-16-10-57-14](https://lfs.zhenhuang.site/images/conjugation-between-hfr-f--2024-04-16-10-57-14.png#small)
+![conjugation-between-hfr-f--2024-04-16-10-57-14](https://lfs.zhenhuang.top/images/conjugation-between-hfr-f--2024-04-16-10-57-14.png#small)
 
 ## 4 省流版
 

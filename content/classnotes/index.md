@@ -15,7 +15,7 @@ newsletter: false
 disable_comments: false
 ---
 
-![classnotes-banner-2024-04-16-11-15-55](https://lfs.zhenhuang.site/images/classnotes-banner-2024-04-16-11-15-55.jpeg#small)
+![classnotes-banner-2024-04-16-11-15-55](https://lfs.zhenhuang.top/images/classnotes-banner-2024-04-16-11-15-55.jpeg#small)
 
 ## Class Notes 课堂笔记
 

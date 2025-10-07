@@ -34,21 +34,21 @@ math: true
 
 How close can two equal point sources be and still be seen as two separate points? There are many criterion for this, such as sparrow criterion and HWHM criterion (usually used in astronomy), but most microscopists use the **Rayleigh criterion**, partly because the distance between two points is $0.61\frac{\lambda}{NA}$ ( $2n\frac{\lambda}{NA^2}$ in depth), which is equal to the radius of the first dark ring.
 
-![two-points-separated-index-2024-04-16-00-58-33](https://lfs.zhenhuang.site/images/two-points-separated-index-2024-04-16-00-58-33.png#small)
+![two-points-separated-index-2024-04-16-00-58-33](https://lfs.zhenhuang.top/images/two-points-separated-index-2024-04-16-00-58-33.png#small)
 
-![rayleigh-criterion-index-2024-04-16-00-58-50](https://lfs.zhenhuang.site/images/rayleigh-criterion-index-2024-04-16-00-58-50.png#small)
+![rayleigh-criterion-index-2024-04-16-00-58-50](https://lfs.zhenhuang.top/images/rayleigh-criterion-index-2024-04-16-00-58-50.png#small)
 
 <span class="caption">Rayleigh criterion[^1]</span>
 
 {{<notice note>}}
 The higher the NA, the smaller the Rayleigh criterion, and the better the resolution.
 
-![low-medium-high-na-index-2024-04-16-00-59-07](https://lfs.zhenhuang.site/images/low-medium-high-na-index-2024-04-16-00-59-07.png#small)
+![low-medium-high-na-index-2024-04-16-00-59-07](https://lfs.zhenhuang.top/images/low-medium-high-na-index-2024-04-16-00-59-07.png#small)
 {{</notice>}}
 
 Another thing to mention is that, say when imaging some small beads, if the beads are smaller than the resolution limit, the images you get are basically going to look the same, even though the beads get smaller and smaller.
 
-![image-of-a-small-specimen-index-2024-04-16-00-59-25](https://lfs.zhenhuang.site/images/image-of-a-small-specimen-index-2024-04-16-00-59-25.png#small)
+![image-of-a-small-specimen-index-2024-04-16-00-59-25](https://lfs.zhenhuang.top/images/image-of-a-small-specimen-index-2024-04-16-00-59-25.png#small)
 
 {{<notice warning>}}
 
@@ -64,7 +64,7 @@ It's quite hard to tell what it is in panel A below, because it's a blurry image
 
 So let's move up by sampling with a higher grain in the imaging plane, like using more pixels in the same detector and the same camera. From panel B to F, you can see that the image gets clearer and clearer, and you can see more and more details.
 
-![sampling-index-2024-04-16-00-59-42](https://lfs.zhenhuang.site/images/sampling-index-2024-04-16-00-59-42.png#small)
+![sampling-index-2024-04-16-00-59-42](https://lfs.zhenhuang.top/images/sampling-index-2024-04-16-00-59-42.png#small)
 
 ## Aliasing
 
@@ -72,7 +72,7 @@ When moving up the sampling further and further, you may notice that the image h
 
 You may know enough about the zebras that they should not have these checkerboards actually; but as a researcher, you are imaging things that might not be looked at before, so if you see objects with some periodicity, you may believe that they are real, but **actually they are artifacts**. So, this actifact of sampling is called **aliasing**. This can severely crimp your ability to interpret your images.
 
-![aliasing-index-2024-04-16-01-00-00](https://lfs.zhenhuang.site/images/aliasing-index-2024-04-16-01-00-00.png#small)
+![aliasing-index-2024-04-16-01-00-00](https://lfs.zhenhuang.top/images/aliasing-index-2024-04-16-01-00-00.png#small)
 
 ## Nyquist-Shannon Sampling Theorem
 
@@ -88,13 +88,13 @@ In other words, to capture a function with maximum frequency $F_{max}$, you need
 
 We can think of this theory in the time domain. Say the signal we want to sample is a sine wave (blue), and each point (red) represents a sampling instant. We reconstruct the signal by connecting the points with straight line. When the sampling frequency is higher than the Nyquist rate, as we reduce the sampling frequency, the shape of the straight-line approximation diverges from the original sine wave; but we can still clearly see that the frequency of the reconstructed signal is the same as the original signal, so **the cyclic nature of the signal is preserved**.
 
-![sinusoid-sampling-higher-than-nyquist-index-2024-04-16-01-00-26](https://lfs.zhenhuang.site/images/sinusoid-sampling-higher-than-nyquist-index-2024-04-16-01-00-26.png#small)
+![sinusoid-sampling-higher-than-nyquist-index-2024-04-16-01-00-26](https://lfs.zhenhuang.top/images/sinusoid-sampling-higher-than-nyquist-index-2024-04-16-01-00-26.png#small)
 
 <span class="caption">20/10/5/2 samples per cycle[^2]</span>
 
 However, when the sampling frequency continues going down and drops below the Nyquist rate, we can see that the discrete-time waveform we reconstructed has acquired fundamentally new cyclical behavior, as shown below:
 
-![sinusoid-sampling-lower-than-nyquist-index-2024-04-16-01-00-43](https://lfs.zhenhuang.site/images/sinusoid-sampling-lower-than-nyquist-index-2024-04-16-01-00-43.png#small)
+![sinusoid-sampling-lower-than-nyquist-index-2024-04-16-01-00-43](https://lfs.zhenhuang.top/images/sinusoid-sampling-lower-than-nyquist-index-2024-04-16-01-00-43.png#small)
 
 <span class="caption">1.9/1.1 sample per cycle[^2]</span>
 

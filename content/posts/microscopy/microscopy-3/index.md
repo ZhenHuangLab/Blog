@@ -32,7 +32,7 @@ math: true
 
 Actually, the objective lenses are the most complex optics in the system. Unlike the simple lenses we discussed in the previous post, objective lenses are **complicated lens groups** (generally 4-17 lenses) that correct for various aberrations.
 
-![the-objective-lenses-index-2024-04-15-23-56-49](https://lfs.zhenhuang.site/images/the-objective-lenses-index-2024-04-15-23-56-49.png#small)
+![the-objective-lenses-index-2024-04-15-23-56-49](https://lfs.zhenhuang.top/images/the-objective-lenses-index-2024-04-15-23-56-49.png#small)
 You need to have some trade-offs between Aberration Correction, Transmission and Resolving Power. The more glasses you put in the lens, the higher corrections are, the more transmission you lose.
 
 | Classes | Corrections | Price |
@@ -49,21 +49,21 @@ $$ NA = n \cdot sin \theta $$
 
 where $n$ is the refractive index of the immersion media between the lens and the specimen, and $\theta$ is the half-angle of the maximum cone of light that can enter the lens.
 
-![numerical-aperture-index-2024-04-15-23-58-13](https://lfs.zhenhuang.site/images/numerical-aperture-index-2024-04-15-23-58-13.png#small)
+![numerical-aperture-index-2024-04-15-23-58-13](https://lfs.zhenhuang.top/images/numerical-aperture-index-2024-04-15-23-58-13.png#small)
 
-![Objectives-vary-in-their-numerical-aperture.png-index-2024-04-16-00-03-30](https://lfs.zhenhuang.site/images/Objectives-vary-in-their-numerical-aperture.png-index-2024-04-16-00-03-30.png#small)
+![Objectives-vary-in-their-numerical-aperture.png-index-2024-04-16-00-03-30](https://lfs.zhenhuang.top/images/Objectives-vary-in-their-numerical-aperture.png-index-2024-04-16-00-03-30.png#small)
 
 <span class="caption">Objectives vary in their numerical aperture</span>
 
 Why immersion media increases NA? Because when using higher refractive index media, we can decrease the refraction out of the collectible area of the lens, and get more light into the lens.
 
-![immersion-media-increases-NA-index-2024-04-16-00-05-30](https://lfs.zhenhuang.site/images/immersion-media-increases-NA-index-2024-04-16-00-05-30.png#small)
+![immersion-media-increases-NA-index-2024-04-16-00-05-30](https://lfs.zhenhuang.top/images/immersion-media-increases-NA-index-2024-04-16-00-05-30.png#small)
 
 Another thing we can learn from the formula is that **the NA can never exceed the refractive index of the immersion media**. For oil immersion, the refractive index is 1.515, and the maximum NA is about 1.49; for water immersion, the refractive index is 1.33, which can have a maximum NA about 1.27.
 
 There is also a trade-off between working distance and NA. The higher the NA, the shorter the working distance.
 
-![working-distance-and-NA-index-2024-04-16-00-06-46](https://lfs.zhenhuang.site/images/working-distance-and-NA-index-2024-04-16-00-06-46.png#small)
+![working-distance-and-NA-index-2024-04-16-00-06-46](https://lfs.zhenhuang.top/images/working-distance-and-NA-index-2024-04-16-00-06-46.png#small)
 
 ## Optical Aberrations
 
@@ -73,19 +73,19 @@ Point Spread Function (PSF) is very useful for understanding all discussions on 
 
 So ideally (everything is aligned and you have great quality lenses), if you have a point source of light, and you focus up and down, then you can build a 3D volume (the X-Z projection in the image below), which looks like a small and symmetric hourglass, at the limit of resolution of that optical system.
 
-![Point-Spread-Function-index-2024-04-16-00-07-56](https://lfs.zhenhuang.site/images/Point-Spread-Function-index-2024-04-16-00-07-56.png#small)
+![Point-Spread-Function-index-2024-04-16-00-07-56](https://lfs.zhenhuang.top/images/Point-Spread-Function-index-2024-04-16-00-07-56.png#small)
 
 For example, the ideal thin lens we talked about before is a huge over simplification of actual lens preformance.
 
-![ideal-thin-lens-index-2024-04-16-00-08-48](https://lfs.zhenhuang.site/images/ideal-thin-lens-index-2024-04-16-00-08-48.png#small)
+![ideal-thin-lens-index-2024-04-16-00-08-48](https://lfs.zhenhuang.top/images/ideal-thin-lens-index-2024-04-16-00-08-48.png#small)
 
 ### On Axis
 
 #### 1. Spherical Aberration
 
-![Spherical-Aberration-index-2024-04-16-00-09-37](https://lfs.zhenhuang.site/images/Spherical-Aberration-index-2024-04-16-00-09-37.png#small)
+![Spherical-Aberration-index-2024-04-16-00-09-37](https://lfs.zhenhuang.top/images/Spherical-Aberration-index-2024-04-16-00-09-37.png#small)
 
-![Spherical-Aberration-2.png-index-2024-04-16-00-10-00](https://lfs.zhenhuang.site/images/Spherical-Aberration-2.png-index-2024-04-16-00-10-00.png#small)
+![Spherical-Aberration-2.png-index-2024-04-16-00-10-00](https://lfs.zhenhuang.top/images/Spherical-Aberration-2.png-index-2024-04-16-00-10-00.png#small)
 
 * Uneven focus of mono-chromatic light due to the curvature of the lens. (Differential focus of peripheral and axial rays)
 * Image appears hazy or slightly out of focus.
@@ -93,11 +93,11 @@ For example, the ideal thin lens we talked about before is a huge over simplific
   * Incorrect cover slip thickness;
   * Mismatch Refractive Index of immersion oil with specimen.
 
-![Recognize-for-Spherical-Aberration-index-2024-04-16-00-11-04](https://lfs.zhenhuang.site/images/Recognize-for-Spherical-Aberration-index-2024-04-16-00-11-04.png#small)
+![Recognize-for-Spherical-Aberration-index-2024-04-16-00-11-04](https://lfs.zhenhuang.top/images/Recognize-for-Spherical-Aberration-index-2024-04-16-00-11-04.png#small)
 
 #### 2. Axial Chromatic Aberration
 
-![Axial-Chromatic-Aberration-index-2024-04-16-00-11-55](https://lfs.zhenhuang.site/images/Axial-Chromatic-Aberration-index-2024-04-16-00-11-55.png#small)
+![Axial-Chromatic-Aberration-index-2024-04-16-00-11-55](https://lfs.zhenhuang.top/images/Axial-Chromatic-Aberration-index-2024-04-16-00-11-55.png#small)
 
 * Uneven focus of $\lambda$ in poly-chromatic light due to dispersion (wavelength dependence an optical material has on refractive index).
 * Using the lens under improper conditions (like using the wrong immersion oil) can induce axial chromatic aberration.
@@ -109,13 +109,13 @@ Axial Chromatic Aberration can be corrected with an achromatic doublet lens grou
 
 * Achromatic doublet lens group: a concave and a convex lens that are sandwiched together, and they have different dispersion properties. So they are calculated to correct for different wavelengths of light that they focus on the same point.
 
-![achromatic-doublet-lens-group-index-2024-04-16-00-12-16](https://lfs.zhenhuang.site/images/achromatic-doublet-lens-group-index-2024-04-16-00-12-16.png#small)
+![achromatic-doublet-lens-group-index-2024-04-16-00-12-16](https://lfs.zhenhuang.top/images/achromatic-doublet-lens-group-index-2024-04-16-00-12-16.png#small)
 
 ### Off Axis
 
 #### 1. Field Curvature
 
-![Field-Curvature-index-2024-04-16-00-13-15](https://lfs.zhenhuang.site/images/Field-Curvature-index-2024-04-16-00-13-15.png#small)
+![Field-Curvature-index-2024-04-16-00-13-15](https://lfs.zhenhuang.top/images/Field-Curvature-index-2024-04-16-00-13-15.png#small)
 
 * Produces an image curvature due to the curved lens surface.
 * Cannot focus entire field at the same time.
@@ -123,7 +123,7 @@ Axial Chromatic Aberration can be corrected with an achromatic doublet lens grou
 
 #### 2. Astigmatism
 
-![Astigmatism-index-2024-04-16-00-13-38](https://lfs.zhenhuang.site/images/Astigmatism-index-2024-04-16-00-13-38.png#small)
+![Astigmatism-index-2024-04-16-00-13-38](https://lfs.zhenhuang.top/images/Astigmatism-index-2024-04-16-00-13-38.png#small)
 
 * A point source of light appears as a line or ellipse.
 * Directionality changes at focus.
@@ -131,7 +131,7 @@ Axial Chromatic Aberration can be corrected with an achromatic doublet lens grou
 
 #### 3. Coma
 
-![Coma-index-2024-04-16-00-13-56](https://lfs.zhenhuang.site/images/Coma-index-2024-04-16-00-13-56.png#small)
+![Coma-index-2024-04-16-00-13-56](https://lfs.zhenhuang.top/images/Coma-index-2024-04-16-00-13-56.png#small)
 
 * Uneven focus of light passing through **the optical axis versus the periphery**.
 * Points of light appear as streaks widening at the periphery.

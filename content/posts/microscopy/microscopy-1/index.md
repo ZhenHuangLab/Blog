@@ -42,7 +42,7 @@ The interesting thing is that the telescope was made immediately afterwards the 
 
 In 1665, Robert Hooke published a magnificent book called Micrographia, showing different types of objects (mostly biological in nature) taken by a compound microscope. One of the most famous images is the image of cork cells, which is always used as illustrating the discovery of cells.
 
-![cork-cells-index-2024-04-15-17-35-50](https://lfs.zhenhuang.site/images/cork-cells-index-2024-04-15-17-35-50.png#small)
+![cork-cells-index-2024-04-15-17-35-50](https://lfs.zhenhuang.top/images/cork-cells-index-2024-04-15-17-35-50.png#small)
 
 But, the fact is that he was actually referring to a cell in the simple sense of a box (like some kinds of square objects), not that he had any concept that tissues of animals and plants are composed of what we now know as cells. So, **it's a little bit misleading to say that he discovered cells**.
 
@@ -58,11 +58,11 @@ That's why the highest magnification objects that were looked at at that time we
 
 The most famous of these simple microscopes was the microscope used by Leeuwenhoek. It's a quite complicated microscope which has a very tiny single lens and one needs to put it right up to his eye to see the image. But it turned out that it produced a much better image than a compound microscope at that time.
 
-![simple-microscope-by-Leeuwenhoek-index-2024-04-15-17-36-42](https://lfs.zhenhuang.site/images/simple-microscope-by-Leeuwenhoek-index-2024-04-15-17-36-42.png#small)
+![simple-microscope-by-Leeuwenhoek-index-2024-04-15-17-36-42](https://lfs.zhenhuang.top/images/simple-microscope-by-Leeuwenhoek-index-2024-04-15-17-36-42.png#small)
 
 And so Leeuwenhoek was able to see bacteria, protozoa, cilia, flagella and sperm for the first time.
 
-![Leeuwenhoek-image-index-2024-04-15-17-37-05](https://lfs.zhenhuang.site/images/Leeuwenhoek-image-index-2024-04-15-17-37-05.png)
+![Leeuwenhoek-image-index-2024-04-15-17-37-05](https://lfs.zhenhuang.top/images/Leeuwenhoek-image-index-2024-04-15-17-37-05.png)
 
 So, the most important advances in observing small biological objects came with simple microscopes, not with compound microscopes. Even as late as 1830, the best observations on cells were being made with simple microscope.
 

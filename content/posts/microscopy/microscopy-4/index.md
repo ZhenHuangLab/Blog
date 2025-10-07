@@ -38,7 +38,7 @@ And this may not seem even unreasonable, since a photon, the particle of light, 
 
 One example teaches what's wrong with that idea that magnification is all one needs for light microscopy. Basically, the researchers achieved subatomic resolution levels by just using a copying machine.
 
-![copying-machine-index-2024-04-16-00-15-02](https://lfs.zhenhuang.site/images/copying-machine-index-2024-04-16-00-15-02.png#small)
+![copying-machine-index-2024-04-16-00-15-02](https://lfs.zhenhuang.top/images/copying-machine-index-2024-04-16-00-15-02.png#small)
 
 <span class="caption">I cannot find this paper on the internet now. Figure from the video[^1].</span>
 
@@ -54,7 +54,7 @@ But in fact, **light does have an intrinsic limit to its resolution, which is re
 
 We would be able to generate very high resolution images that would be limited just by the size of photons, if light had traveled just in straight lines. To show why it doesn't work, we can take a look at the simplest of all optical imaging devices, the **pinhole camera**.
 
-![pinhole-camera-index-2024-04-16-00-15-24](https://lfs.zhenhuang.site/images/pinhole-camera-index-2024-04-16-00-15-24.png#small)
+![pinhole-camera-index-2024-04-16-00-15-24](https://lfs.zhenhuang.top/images/pinhole-camera-index-2024-04-16-00-15-24.png#small)
 
 <span class="caption">Light enters a dark box through a small hole and creates an inverted image. Image from wikipedia.[^2]</span>
 
@@ -68,7 +68,7 @@ And it turns out that neither of these are true, and **this is the failing of ra
 
 In order to understand diffaction, we need to think about light as a wave.
 
-![light-as-a-wave-index-2024-04-16-00-15-47](https://lfs.zhenhuang.site/images/light-as-a-wave-index-2024-04-16-00-15-47.png#small)
+![light-as-a-wave-index-2024-04-16-00-15-47](https://lfs.zhenhuang.top/images/light-as-a-wave-index-2024-04-16-00-15-47.png#small)
 
 Light that is traveling in one direction is a **plane wave** (a 3D object). The plane is in one 2D surface, and right behind it is another one and another one, and these are the things that are oscillating. And the distance between these planes is the wavelength of the light.
 
@@ -76,19 +76,19 @@ And there is situation where the light travels out from a point and a sphericall
 
 Light's direction is orthogonal to wave front. And the intensity is not related to the amplitude of the wave, but to the suqare. The amplitude moving across space is just the light wave looks at one instant in time. If we want to know what the cumulative amplitude of that wave is, we can integrate that intensity over time/wavelength, then we get a uniform value for the wave, which is the **intensity** (what you detect as **brightness**) of the light.
 
-![amplitude-intensity-index-2024-04-16-00-18-26](https://lfs.zhenhuang.site/images/amplitude-intensity-index-2024-04-16-00-18-26.png#small)
+![amplitude-intensity-index-2024-04-16-00-18-26](https://lfs.zhenhuang.top/images/amplitude-intensity-index-2024-04-16-00-18-26.png#small)
 
 Huygens postulated that light at its most elemental is a disturbance that propagates in all directions as a spherical wave. And he called these elements of light **wavelets**. So, not just that light travels in waves, but that there is a infinite small wave which is the basic component that generates plane waves and spherical waves.
 
-![spherical-and-plane-wave-index-2024-04-16-00-18-46](https://lfs.zhenhuang.site/images/spherical-and-plane-wave-index-2024-04-16-00-18-46.png#small)
+![spherical-and-plane-wave-index-2024-04-16-00-18-46](https://lfs.zhenhuang.top/images/spherical-and-plane-wave-index-2024-04-16-00-18-46.png#small)
 
 And this can also explain the bending of light. If you have a box with a point source in it and the light is sending it out in all directions, it is clear that you can not pnly get a straight line of light from the source because the light has bent at the pinhole, and this bending in this case is due to the fact that one wavelet is sending its energy in all directions.
 
-![the-bending-of-light-index-2024-04-16-00-19-03](https://lfs.zhenhuang.site/images/the-bending-of-light-index-2024-04-16-00-19-03.png#small)
+![the-bending-of-light-index-2024-04-16-00-19-03](https://lfs.zhenhuang.top/images/the-bending-of-light-index-2024-04-16-00-19-03.png#small)
 
 This is the wave optic view of the effect of the microscope lenses:
 
-![wave-optic-view-index-2024-04-16-00-19-22](https://lfs.zhenhuang.site/images/wave-optic-view-index-2024-04-16-00-19-22.png#small)
+![wave-optic-view-index-2024-04-16-00-19-22](https://lfs.zhenhuang.top/images/wave-optic-view-index-2024-04-16-00-19-22.png#small)
 
 ## Interference
 
@@ -98,7 +98,7 @@ Waves of one frequency that come from the same source at nearly the same time ar
 
 When they're exactly in phase, they add up to a wave that has twice the amplitude of the original wave, which is called *constructive interference*. When they're exactly out of phase, they cancel each other out, which is called *destructive interference*.
 
-![Youngs-two-slit-experiment-index-2024-04-16-00-19-42](https://lfs.zhenhuang.site/images/Youngs-two-slit-experiment-index-2024-04-16-00-19-42.png#small)
+![Youngs-two-slit-experiment-index-2024-04-16-00-19-42](https://lfs.zhenhuang.top/images/Youngs-two-slit-experiment-index-2024-04-16-00-19-42.png#small)
 
 <span class="caption">Young's two-slit experiment[^3] [^4]</span>
 
@@ -106,7 +106,7 @@ When multiple wavelets from the same source and same time (i.e., coherent) inter
 
 So we can understand the interference of light from two wavelets:
 
-![interference-of-light-from-two-wavelets-index-2024-04-16-00-20-04](https://lfs.zhenhuang.site/images/interference-of-light-from-two-wavelets-index-2024-04-16-00-20-04.png#small)
+![interference-of-light-from-two-wavelets-index-2024-04-16-00-20-04](https://lfs.zhenhuang.top/images/interference-of-light-from-two-wavelets-index-2024-04-16-00-20-04.png#small)
 
 * At an instant in time (top): Mesh of light and dark lines.
   * Dark & bright areas: have the *same* energy.
@@ -117,7 +117,7 @@ So we can understand the interference of light from two wavelets:
 
 Think about how numerical aperture (NA) affects the converging spherical wave coming out of the tube lens. Say the distance of the furthest two wavelets means the aperture of the lens, as the figures show below:
 
-![high-and-low-na-index-2024-04-16-00-27-27](https://lfs.zhenhuang.site/images/high-and-low-na-index-2024-04-16-00-27-27.png#small)
+![high-and-low-na-index-2024-04-16-00-27-27](https://lfs.zhenhuang.top/images/high-and-low-na-index-2024-04-16-00-27-27.png#small)
 
 It is obvious that if you have a high NA lens, a greater portion of the spherical wave is collected by the objective, which means the plane wave leaving the back aperture of the objective is wider, so **the distance between the furthest wavelets are farther apart than a low numerical aperture lens**.
 
@@ -125,11 +125,11 @@ So if we go further into the relationship between the NA and the diffraction pat
 
 This turns out to be critical because **any wavelets that are closer together can only generate bigger structures**, but cannot generate finer structures. So the limit of the resolution (or the quality of the image) is determined by how fine this fringe period can be.
 
-![finest-fringes-determines-finest-details-index-2024-04-16-00-42-15](https://lfs.zhenhuang.site/images/finest-fringes-determines-finest-details-index-2024-04-16-00-42-15.png#small)
+![finest-fringes-determines-finest-details-index-2024-04-16-00-42-15](https://lfs.zhenhuang.top/images/finest-fringes-determines-finest-details-index-2024-04-16-00-42-15.png#small)
 
 Another thing you need to think about is the wavelength of the light. If you have a light with a longer wavelength, the fringes are wider and farther apart, so you can't resolve as fine a detail as you can with a shorter wavelength light, as shown below:
 
-![longer-shorter-wavelength-index-2024-04-16-00-42-42](https://lfs.zhenhuang.site/images/longer-shorter-wavelength-index-2024-04-16-00-42-42.png#small)
+![longer-shorter-wavelength-index-2024-04-16-00-42-42](https://lfs.zhenhuang.top/images/longer-shorter-wavelength-index-2024-04-16-00-42-42.png#small)
 
 Generally, the shorter wavelengths of light will give you better quality images in terms of the finest details you can resolve. 
 
@@ -141,13 +141,13 @@ This implys that **if you want high quality imaging, you should not simply think
 
 We can now add more and more wavelets on the spherical cap, and see how do these wavelets interfere with each other.
 
-![three-wavelets-index-2024-04-16-00-45-28](https://lfs.zhenhuang.site/images/three-wavelets-index-2024-04-16-00-45-28.png#small)
+![three-wavelets-index-2024-04-16-00-45-28](https://lfs.zhenhuang.top/images/three-wavelets-index-2024-04-16-00-45-28.png#small)
 <span class="caption">Effect of three wavelets[^5]</span>
 
-![five-wavelets-index-2024-04-16-00-46-14](https://lfs.zhenhuang.site/images/five-wavelets-index-2024-04-16-00-46-14.png#small)
+![five-wavelets-index-2024-04-16-00-46-14](https://lfs.zhenhuang.top/images/five-wavelets-index-2024-04-16-00-46-14.png#small)
 <span class="caption">Effect of five wavelets[^5]</span>
 
-![nine-wavelets-index-2024-04-16-00-46-33](https://lfs.zhenhuang.site/images/nine-wavelets-index-2024-04-16-00-46-33.png#small)
+![nine-wavelets-index-2024-04-16-00-46-33](https://lfs.zhenhuang.top/images/nine-wavelets-index-2024-04-16-00-46-33.png#small)
 <span class="caption">Effect of nine wavelets[^5]</span>
 
 **The center of the primary image plane will be brighter and brighter**, and finally become the brightest as we have more and more wavelets, while **everywhere else things will get dimmer and dimmer**, because all of them will be in phase in the middle (getting more and more constructive interference due to **equidistance**), but there will be nowhere else where most of the wavelets are in phase. So that's why the image plane is here, and why you will get this kind of cone shape of focused, converging light -- <mark>simply by interference</mark>.

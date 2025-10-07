@@ -27,7 +27,7 @@ newsletter: true
 disable_comments: false
 math: true
 ---
-![hello-blog-2024-04-16-11-13-58](https://lfs.zhenhuang.site/images/hello-blog-2024-04-16-11-13-58.png#small)
+![hello-blog-2024-04-16-11-13-58](https://lfs.zhenhuang.top/images/hello-blog-2024-04-16-11-13-58.png#small)
 
 {{<notice info>}}
 2024.03重新转回Github。2023.09转到个人服务器上，重新用wordpress搭建了个人博客，这是原来的文章。

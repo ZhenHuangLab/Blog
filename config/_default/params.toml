@@ -33,7 +33,7 @@ enableimgloop = true # Enable image loop in post
 
 ### Web schemas
 # Open Graph
-images = ['https://lfs.zhenhuang.site/images/meta.jpg'] # Fallback for Open Graph and Twitter Cards images if none are present in front matter. Enter path to the image.
+images = ['https://lfs.zhenhuang.top/images/meta.jpg'] # Fallback for Open Graph and Twitter Cards images if none are present in front matter. Enter path to the image.
 ogLocale = "en_US" # Open graph locale
 
 # Twitter Cards
