@@ -30,24 +30,64 @@ body {
   to bottom of page if main content doesn't fill viewport vertically */
   display: flex;
   flex-direction: column;
+
+  /* Grid background pattern - subtle lines for visual texture */
+  background-color: var(--color-bg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 0;
+
   ::selection {
     background: var(--color-primary);  // 你想要的背景颜色
     color: white;  // 你想要的文本颜色
   }
-  
+
   ::-moz-selection {
     background: var(--color-primary);  // 你想要的背景颜色
     color: white;  // 你想要的文本颜色
   }
 }
 
-main {   
-  flex: 1 0 auto; 
+main {
+  flex: 1 0 auto;
 }
 
 footer {
-  flex-shrink: 0;    
+  flex-shrink: 0;
 }
+
+/* Dark theme grid background - lighter lines for dark backgrounds */
+body[data-theme="dark"] {
+  background-color: var(--color-bg);
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.005) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.005) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 0;
+}
+
+/* Ensure content paints above the grid overlay in dark mode */
+header, main, footer {
+  position: relative;
+  z-index: 1;
+}
+
+/* Dark mode grid as an overlay to avoid being covered by child backgrounds */
+body[data-theme="dark"]::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 0;
+  z-index: 0;
+}
+
 
 a {
   color: var(--color-primary);
@@ -84,7 +124,7 @@ h6 {
 }
 
 table {
-  border-collapse: collapse;    
+  border-collapse: collapse;
   display: block;
   overflow-x: auto;
 }
@@ -180,7 +220,7 @@ form {
       min-width: 250px;
     }
   }
-  
+
   button {
     cursor: pointer;
   }
