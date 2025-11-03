@@ -1,6 +1,6 @@
 {{ $sass := resources.Get "scss/main.scss" }}
 {{ $options := (dict "enableSourceMap" (not hugo.IsProduction)) }}
-{{ $style := $sass | css.Sass $options }}
+{{ $style := $sass | resources.ToCSS $options }}
 
 {{ $custom := "" }}
 {{ $custom_no_bundle := false }}
