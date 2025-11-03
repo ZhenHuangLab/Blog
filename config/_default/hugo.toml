@@ -24,9 +24,14 @@ hasCJKLanguage = true
 enableInlineShortcodes = false # Default, false is more security-friendly
 ignoreFiles = [] # Default
 # newContentEditor = 'code' # Set VS Code as default editor
-paginate = 10 # Default
-paginatePath = 'page' # Default
+# paginate = 10 # Deprecated in Hugo v0.128.0, use pagination.pagerSize instead
+# paginatePath = 'page' # Deprecated in Hugo v0.128.0, use pagination.path instead
 pluralizeListTitles = true # Default
+
+# Pagination settings (Hugo v0.128.0+)
+[pagination]
+  pagerSize = 10
+  path = 'page'
 publishDir = 'public' # Default
 relativeURLs = false # Default
 summaryLength = 70 # Default
