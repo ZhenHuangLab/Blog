@@ -1,7 +1,6 @@
 /* Add custom CSS */
 
-/* 导入霞鹜文楷屏幕阅读版字体 */
-@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css');
+/* 使用 head 模板外链加载 LXGW WenKai Screen，避免 @import 在生产打包中失效 */
 
 /* 导入 JetBrains Mono 字体 - 用于英文和代码 */
 @font-face {

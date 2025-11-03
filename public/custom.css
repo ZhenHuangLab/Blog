@@ -1,7 +1,6 @@
 /* Add custom CSS */
 
-/* 导入霞鹜文楷屏幕阅读版字体 */
-@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css');
+/* 使用 head 模板外链加载 LXGW WenKai Screen，避免 @import 在生产打包中失效 */
 
 /* 导入 JetBrains Mono 字体 - 用于英文和代码 */
 @font-face {
@@ -10,6 +9,8 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+  /* 只用于拉丁字符、数字、标点等，不包含中文 */
+  unicode-range: U+0000-00FF, U+0100-017F, U+0180-024F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF, U+2100-214F;
 }
 
 @font-face {
@@ -18,6 +19,7 @@
   font-weight: 400;
   font-style: italic;
   font-display: swap;
+  unicode-range: U+0000-00FF, U+0100-017F, U+0180-024F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF, U+2100-214F;
 }
 
 @font-face {
@@ -26,6 +28,7 @@
   font-weight: 500;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+0000-00FF, U+0100-017F, U+0180-024F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF, U+2100-214F;
 }
 
 @font-face {
@@ -34,6 +37,7 @@
   font-weight: 700;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+0000-00FF, U+0100-017F, U+0180-024F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF, U+2100-214F;
 }
 
 @font-face {
@@ -42,6 +46,7 @@
   font-weight: 700;
   font-style: italic;
   font-display: swap;
+  unicode-range: U+0000-00FF, U+0100-017F, U+0180-024F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF, U+2100-214F;
 }
 
 /* 全局字体设置 - 英文使用 JetBrains Mono，中文使用霞鹜文楷 */

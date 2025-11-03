@@ -1,6 +1,6 @@
 {{ $sass := resources.Get "scss/main.scss" }}
 {{ $options := (dict "enableSourceMap" (not hugo.IsProduction)) }}
-{{ $style := $sass | resources.ToCSS $options }}
+{{ $style := $sass | css.Sass $options }}
 
 {{ $custom := "" }}
 {{ $custom_no_bundle := false }}
@@ -32,4 +32,7 @@
 {{ if $custom_no_bundle }}
 <link rel="stylesheet" href="{{ $custom.Permalink }}" />
 {{ end }}
+
+{{/*  Load LXGW WenKai Screen font CSS via CDN to avoid @import being ignored when bundling  */}}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/lxgwwenkaiscreen.css" />
 
