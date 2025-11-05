@@ -109,13 +109,10 @@
     .menu-item {
       position: relative; /* 确保子菜单相对于父元素定位 */
       overflow: visible !important; /* 确保下拉菜单不被裁剪 */
-      padding-bottom: 10px; /* 扩大hover区域，避免鼠标移动时断开连接 */
-      z-index: 1; /* 建立层叠上下文 */
 
       /* 当鼠标悬停在菜单项或其子菜单上时,保持菜单项高亮 */
       &:hover {
         opacity: 1; /* 鼠标悬停时完全不透明 */
-        z-index: 10000; /* 悬停时提升层级，确保子菜单在最上层 */
       }
 
       /* 关键修复：正确的hover选择器，确保鼠标在父元素或子菜单上时都显示 */
@@ -125,7 +122,6 @@
         display: block;
         visibility: visible;
         opacity: 1;
-        z-index: 9999 !important; /* 提高z-index确保不被其他元素遮挡 */
         border-radius: 10px;
         pointer-events: auto !important; /* 确保可以点击 */
       }
@@ -148,29 +144,16 @@
   @include respond-to('m-large') {
     display: none;
     position: absolute;
-    top: calc(100% - 10px); /* 与父元素padding-bottom重叠，避免间隙 */
+    top: 100%; /* 直接定位在父元素下方 */
     left: 0;
     min-width: 200px; /* 确保子菜单有足够宽度 */
-    padding-top: 10px; /* 内边距，与父元素重叠区域匹配 */
-    margin-top: 0; /* 移除间隙,确保鼠标移动路径连续 */
+    padding-top: 0.5rem; /* 内部上边距提供视觉间隔 */
+    margin-top: 0;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-    z-index: 9999 !important; /* 确保在所有元素之上 */
     pointer-events: auto !important; /* 确保可以点击 */
     visibility: hidden; /* 初始隐藏但保留布局空间 */
     opacity: 0; /* 配合visibility使用 */
     transition: opacity 0.2s ease, visibility 0.2s ease; /* 平滑过渡 */
-
-    /* 在子菜单顶部添加一个不可见的桥接区域，确保鼠标移动路径连续 */
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 10px; /* 与父元素padding-bottom相同 */
-      background: transparent;
-      pointer-events: auto; /* 确保桥接区域可以响应鼠标事件 */
-    }
 
     &--active {
       display: none; /* 桌面端不使用active类,完全依赖hover */

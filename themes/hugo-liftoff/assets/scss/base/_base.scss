@@ -69,7 +69,13 @@ body[data-theme="dark"] {
 }
 
 /* Ensure content paints above the grid overlay in dark mode */
-header, main, footer {
+/* Header needs higher z-index to prevent dropdown menus from being covered by main content */
+header {
+  position: relative;
+  z-index: 10;
+}
+
+main, footer {
   position: relative;
   z-index: 1;
 }
