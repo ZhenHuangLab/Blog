@@ -10,6 +10,7 @@
   row-gap: 20px;
   position: relative;
   top: 0px !important;
+  overflow: visible !important; /* 确保下拉菜单不被裁剪 */
 
   .nav-toggle {
     // position: absolute;
@@ -56,6 +57,7 @@
   padding: 0;
   border-bottom: 1px solid var(--color-contrast-low);
   border-top: 1px solid var(--color-contrast-low);
+  overflow: visible !important; /* 确保下拉菜单不被裁剪 */
 
   // &--active {
   //   display: flex; /* Display mobile menu on click */
@@ -104,14 +106,22 @@
     flex-direction: row;
     border: none;
 
-    .menu-item:hover {
-      opacity: 0.5;
-      .sub-menu {        
+    .menu-item {
+      position: relative; /* 确保子菜单相对于父元素定位 */
+      overflow: visible !important; /* 确保下拉菜单不被裁剪 */
+
+      /* 当鼠标悬停在菜单项或其子菜单上时,保持菜单项高亮 */
+      &:hover {
+        opacity: 1; /* 鼠标悬停时完全不透明 */
+      }
+
+      &:hover .sub-menu {
         background-color: var(--color-contrast-lower);
         padding-left: 0;
         display: block;
-        z-index: 1;
-        border-radius: 10px;  
+        z-index: 9999 !important; /* 提高z-index确保不被其他元素遮挡 */
+        border-radius: 10px;
+        pointer-events: auto !important; /* 确保可以点击 */
       }
     }
   }
@@ -132,10 +142,16 @@
   @include respond-to('m-large') {
     display: none;
     position: absolute;
+    top: 100%; /* 定位在父元素下方 */
+    left: 0;
+    min-width: 200px; /* 确保子菜单有足够宽度 */
+    margin-top: 0; /* 移除间隙,确保鼠标移动路径连续 */
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    z-index: 9999 !important; /* 确保在所有元素之上 */
+    pointer-events: auto !important; /* 确保可以点击 */
 
     &--active {
-      display: none;
+      display: none; /* 桌面端不使用active类,完全依赖hover */
     }
   }
 }

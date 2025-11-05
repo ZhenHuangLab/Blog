@@ -66,6 +66,15 @@ pre, code, kbd, samp, tt {
     --color-primary: #0082C8;
 }
 
+/* 修复导航栏下拉菜单被遮挡的问题 */
+header.container {
+    overflow: visible !important;
+}
+
+header.container nav {
+    overflow: visible !important;
+}
+
 .heading .link-icon {
     opacity: 0.1;
     transition: opacity 0.2s ease;

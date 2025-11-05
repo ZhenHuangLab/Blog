@@ -705,7 +705,9 @@ body {
   padding: 20px 0;
   row-gap: 20px;
   position: relative;
-  top: 0px !important; }
+  top: 0px !important;
+  overflow: visible !important;
+  /* 确保下拉菜单不被裁剪 */ }
   .main-nav .nav-toggle {
     display: none; }
   @media (min-width: 900px) {
@@ -737,7 +739,9 @@ body {
   margin: 0;
   padding: 0;
   border-bottom: 1px solid var(--color-contrast-low);
-  border-top: 1px solid var(--color-contrast-low); }
+  border-top: 1px solid var(--color-contrast-low);
+  overflow: visible !important;
+  /* 确保下拉菜单不被裁剪 */ }
   .menu .menu-item, .menu .menu-item--align {
     display: block;
     list-style-type: none;
@@ -770,14 +774,24 @@ body {
       display: flex;
       flex-direction: row;
       border: none; }
-      .menu .menu-item:hover, .menu .menu-item--align:hover {
-        opacity: 0.5; }
+      .menu .menu-item, .menu .menu-item--align {
+        position: relative;
+        /* 确保子菜单相对于父元素定位 */
+        overflow: visible !important;
+        /* 确保下拉菜单不被裁剪 */
+        /* 当鼠标悬停在菜单项或其子菜单上时,保持菜单项高亮 */ }
+        .menu .menu-item:hover, .menu .menu-item--align:hover {
+          opacity: 1;
+          /* 鼠标悬停时完全不透明 */ }
         .menu .menu-item:hover .sub-menu, .menu .menu-item--align:hover .sub-menu {
           background-color: var(--color-contrast-lower);
           padding-left: 0;
           display: block;
-          z-index: 1;
-          border-radius: 10px; } }
+          z-index: 9999 !important;
+          /* 提高z-index确保不被其他元素遮挡 */
+          border-radius: 10px;
+          pointer-events: auto !important;
+          /* 确保可以点击 */ } }
 .sub-menu {
   display: none; }
   .sub-menu--active {
@@ -789,9 +803,21 @@ body {
     .sub-menu {
       display: none;
       position: absolute;
-      box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; }
+      top: 100%;
+      /* 定位在父元素下方 */
+      left: 0;
+      min-width: 200px;
+      /* 确保子菜单有足够宽度 */
+      margin-top: 0;
+      /* 移除间隙,确保鼠标移动路径连续 */
+      box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+      z-index: 9999 !important;
+      /* 确保在所有元素之上 */
+      pointer-events: auto !important;
+      /* 确保可以点击 */ }
       .sub-menu--active {
-        display: none; } }
+        display: none;
+        /* 桌面端不使用active类,完全依赖hover */ } }
 .footer {
   background-color: var(--color-contrast-lower); }
 
