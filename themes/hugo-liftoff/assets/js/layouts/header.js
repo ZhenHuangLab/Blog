@@ -17,12 +17,13 @@ function toggleMobileMenu() {
     // 只在移动端添加click事件来切换子菜单
     // 桌面端完全依赖CSS的hover效果
     item.addEventListener('click', (e) => {
-      // 检查是否是移动端(通过检测屏幕宽度或菜单是否为列布局)
-      const isMobile = window.innerWidth < 1024; // 根据实际断点调整
+      // 检查是否是移动端(通过检测屏幕宽度，与CSS断点m-large: 900px保持一致)
+      const isMobile = window.innerWidth < 900; // 修复：与CSS断点保持一致
 
       if (isMobile) {
         let subMenu = item.querySelector('.sub-menu');
         if (subMenu) {
+          // 阻止事件冒泡，避免点击子菜单项时关闭菜单
           if (subMenu.classList.contains('sub-menu--active')) {
             subMenu.classList.remove('sub-menu--active');
           } else {

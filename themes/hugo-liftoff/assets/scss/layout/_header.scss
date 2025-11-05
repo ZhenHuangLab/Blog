@@ -109,13 +109,16 @@
     .menu-item {
       position: relative; /* 确保子菜单相对于父元素定位 */
       overflow: visible !important; /* 确保下拉菜单不被裁剪 */
+      padding-bottom: 5px; /* 扩大hover区域，避免鼠标移动时断开连接 */
 
       /* 当鼠标悬停在菜单项或其子菜单上时,保持菜单项高亮 */
       &:hover {
         opacity: 1; /* 鼠标悬停时完全不透明 */
       }
 
-      &:hover .sub-menu {
+      /* 关键修复：同时监听父元素hover和子菜单hover */
+      &:hover .sub-menu,
+      .sub-menu:hover {
         background-color: var(--color-contrast-lower);
         padding-left: 0;
         display: block;
@@ -142,13 +145,25 @@
   @include respond-to('m-large') {
     display: none;
     position: absolute;
-    top: 100%; /* 定位在父元素下方 */
+    top: calc(100% - 5px); /* 与父元素padding-bottom重叠，避免间隙 */
     left: 0;
     min-width: 200px; /* 确保子菜单有足够宽度 */
+    padding-top: 5px; /* 内边距，与父元素重叠区域匹配 */
     margin-top: 0; /* 移除间隙,确保鼠标移动路径连续 */
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     z-index: 9999 !important; /* 确保在所有元素之上 */
     pointer-events: auto !important; /* 确保可以点击 */
+
+    /* 在子菜单顶部添加一个不可见的桥接区域，确保鼠标移动路径连续 */
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px; /* 与父元素padding-bottom相同 */
+      background: transparent;
+    }
 
     &--active {
       display: none; /* 桌面端不使用active类,完全依赖hover */
